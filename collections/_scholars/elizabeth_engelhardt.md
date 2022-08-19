@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1396
 Title: elizabeth_engelhardt
 name: Elizabeth Engelhardt

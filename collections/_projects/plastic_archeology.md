@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Plastic Archeology
 main_scholar: Anna Agbe-Davies
 other_scholars_involved: Eric Deetz, Robin Frohardt

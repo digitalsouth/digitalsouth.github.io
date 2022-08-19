@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Durham's Geographic Histories
 subtitle: nan
 main_scholar: Nina Martin

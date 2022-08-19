@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: A Red Record
 subtitle: nan
 main_scholar: Seth Kotch

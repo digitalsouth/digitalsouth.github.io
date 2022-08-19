@@ -1,6 +1,5 @@
 ---
-layout: post
-ID: 1394
+layout: scholar
 Title: courtney_rivard
 name: Courtney Rivard
 title: Teaching Associate Professor, Director of the Digital Literacy and Communications (DLC) Lab

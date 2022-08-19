@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1391
 Title: seth_kotch
 name: Seth Kotch

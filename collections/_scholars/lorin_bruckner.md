@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 2172
 Title: lorin_bruckner
 name: Lorin Bruckner

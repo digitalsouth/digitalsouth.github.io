@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1403
 Title: lisa_villamil
 name: Lisa Villamil

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 2169
 Title: sarah_carrier
 name: Sarah Carrier

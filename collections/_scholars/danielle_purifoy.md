@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1400
 Title: danielle_purifoy
 name: Danielle Purifoy

@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/"
-url: "https://www.digitalsouthunc.org/home"
+url: "https://www.digitalsouthunc.org"
 
 test: testing
 
@@ -11,7 +11,7 @@ avatar:
 favicon: 
 
 # Header and footer text
-header_text: <code>The Digital South @ UNC </code>   
+header_text: The Digital South @ UNC   
 header_feature_image: assets/img/feature/ds_bkd_1.jpg
 header_feature_image_responsive: true
 footer_text: 

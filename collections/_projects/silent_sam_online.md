@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Silent Sam Online
 main_scholar: James L. Leloudis
 other_scholars_involved: Cecelia Moore, Ph.D.

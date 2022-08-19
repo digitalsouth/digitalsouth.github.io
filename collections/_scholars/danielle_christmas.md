@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1402
 Title: danielle_christmas
 name: Danielle Christmas

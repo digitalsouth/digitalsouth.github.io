@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Media and the Movement
 subtitle: Journalism, Civil Rights, and Black Power in the American South
 main_scholar: Seth Kotch

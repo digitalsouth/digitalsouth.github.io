@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1405
 Title: nina_martin
 name: Nina Martin

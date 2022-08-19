@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Mapping Black Towns
 subtitle: nan
 main_scholar: Danielle Purifoy

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 2175
 Title: matthew_jansen
 name: Matthew Jansen

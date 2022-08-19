@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: UndocuCarolina
 subtitle: nan
 main_scholar: Angela Stuesse

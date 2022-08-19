@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "#SilentSam"
 main_scholar: Digital Innovation Lab
 other_scholars_involved: Sarah Walton, Michael Joseph Jr Doucette, Yukun Yang, Meng Li

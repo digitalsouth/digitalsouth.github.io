@@ -1,6 +1,5 @@
 ---
-layout: post
-ID: 2155
+layout: scholar
 Title: chaitra_powell
 name: Chaitra Powell
 title: Curator of Southern Historical Collection

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1404
 Title: susan_harbage_page
 name: Susan Harbage Page

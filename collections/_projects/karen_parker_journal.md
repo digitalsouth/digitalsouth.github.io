@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Mapping Karen Parker's Journal"
 subtitle: nan
 main_scholar: Banu Gokarıksel

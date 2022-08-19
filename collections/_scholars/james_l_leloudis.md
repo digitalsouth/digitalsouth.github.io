@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: scholar
 ID: 1395
-Title: james_l._leloudis
+Title: james_l_leloudis
 name: James L. Leloudis
 title: Professor, Associate Dean for Honors, Director of the James M. Johnston Center for Undergraduate Excellence
 department: Department of History

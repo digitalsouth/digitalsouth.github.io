@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1399
 Title: w._fitzhugh_brundage
 name: W. Fitzhugh Brundage

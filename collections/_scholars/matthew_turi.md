@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 2178
 Title: matthew_turi
 name: Matthew Turi

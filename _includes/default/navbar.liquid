@@ -14,8 +14,8 @@
         {% for page in site.pages %}
             {% unless page.title == null or page.hide or name_page contains page.title %}
             <li>
-                <a title="{{ page.title }}" href="{{ page.url | relative_url }}" class="active">
-                <span>{{ page.title }}</span>
+                <a title="{{ page.title | upcase }}" href="{{ page.url | relative_url }}" class="active">
+                <span>{{ page.title | upcase }}</span>
                 </a>
             </li>
             {% endunless %}

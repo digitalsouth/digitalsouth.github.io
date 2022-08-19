@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: On The Books
 subtitle: Jim Crow and Algorithms of Resistance
 main_scholar: Amanda Henley

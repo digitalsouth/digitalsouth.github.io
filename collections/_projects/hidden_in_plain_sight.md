@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: "Hidden in Plain Sight"
 subtitle: nan
 main_scholar: James L. Leloudis

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1401
 Title: diego_riveros-iregui
 name: Diego Riveros-Iregui

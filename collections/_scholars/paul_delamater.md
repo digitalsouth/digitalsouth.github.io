@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: scholar
 ID: 1397
 Title: paul_delamater
 name: Paul Delamater

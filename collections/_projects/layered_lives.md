@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: project
 title: Layered Lives
 subtitle: nan
 main_scholar: Courtney Rivard
