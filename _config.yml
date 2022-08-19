@@ -1,1 +1,61 @@
-theme: jekyll-theme-slate
+# SITE CONFIGURATION
+baseurl: "/"
+url: "https://www.digitalsouthunc.org/home"
+
+test: testing
+
+# THEME-SPECIFIC CONFIGURATION
+title: "The Digital South @ UNC"                                   
+description: "A website with blog posts and pages"     
+avatar:                        
+favicon: 
+
+# Header and footer text
+header_text: <code>The Digital South @ UNC </code>   
+header_feature_image: assets/img/feature/ds_bkd_1.jpg
+header_feature_image_responsive: true
+footer_text: 
+
+# Blog
+excerpt: true                                       
+page_excerpts: true
+post_navigation: true
+color_image:                    
+
+
+# PAGINATION
+paginate: 5
+paginate_path: "/blog/page:num"
+
+collections_dir: collections
+
+collections:
+  scholars:
+    output: true
+    sort_by: name
+    permalink: /:collection/:name
+  projects:
+    output: true
+    sort_by: name
+    permalink: /:collection/:name
+  spcollections:
+    output: true
+    sort_by: name
+    permalink: /:collection/:name
+
+csv_reader:
+    converters:
+      - all
+    headers: true
+    encoding: utf-8
+  
+
+# BUILD SETTINGS
+sass:
+  style: compressed
+  sass_dir: _sass
+  implementation: sass-embedded
+  
+plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-feed]
+exclude: [".jekyll-cache", ".jekyll-metadata", ".idea", "vendor/*", "assets/node_modules/*"]
+

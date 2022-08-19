@@ -1,0 +1,30 @@
+<div class='section'>
+    <h2 class='header'>
+        About the Featured Scholars
+    </h2>
+    <p class='flow-text light'>
+        This page is a directory for current UNC scholars researching the American South utilizing various digital methodologies. Scholars come from a myriad of departments across campus and have different approaches and questions, but ultimately they are all
+        interested in advancing our understanding of the South through digital methods.
+    </p>
+
+
+    <p class='flow-text light'>
+        We will highlight a scholar every couple of days as a way to introduce them individually. Keep an eye out for our first post!
+    </p>
+</div>
+
+<div class='section row'>
+    {% for scholar in site.scholars %}
+    <div class="col s12 m6 l4">
+        <div class="card small blue darken-3 hoverable">
+            <div class="card-content white-text">
+                <span class="card-title"> {{ scholar.name }}</span>
+                <p class="show-on-medium-and-up"> {{ scholar.department }}</p>
+            </div>
+            <div class='card-action'>
+                <a href="{{ scholar.url | relative_url }}"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>

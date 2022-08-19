@@ -1,0 +1,29 @@
+---
+layout: default
+---
+
+<h2> Recent Posts </h2>
+
+<div class='row'>
+{% for post in site.posts %}
+<div class="col s10 offset-s2">
+        <div class="card horizontal medium">
+                <div class="card-image">
+                    <img src="{{ post.img | relative_url }}">
+                </div>
+                <div class='card-stacked'>
+                <div class="card-content">
+                    <span class="card-title"> {{ post.title }}</span>
+                    <span> {{ post.date | date: "%b %d, %Y" }} </span>
+                    <div class="divider"></div>
+                    <p class='section'> {{ post.excerpt | strip_html }} </p>
+                </div>
+            <div class='card-action'>
+                <a href="{{ post.url | relative_url }}"> Read More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endfor %}
+</div>
