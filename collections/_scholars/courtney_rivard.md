@@ -5,11 +5,7 @@ name: Courtney Rivard
 title: Teaching Associate Professor, Director of the Digital Literacy and Communications (DLC) Lab
 department: Department of English and Comparative Literature
 unc_site: https://englishcomplit.unc.edu/faculty-directory/courtney-rivard/
-preview-picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2021/11/courtney_rivard-1.jpg
 personal_site: https://courtneyrivard.com/
-_wp_old_slug: nan
-image_url: nan
-image_filename: nan
-image_title: nan
 ---
-nan
+Her interdisciplinary work combines Composition and Rhetoric, digital humanities and feminist studies to look at the rhetoric of history in the space of archives. Her first book, Voice of a Nation: Mapping Documentary Expression in New Deal America, combines archival and quantitative methods to recover the history of the Southern Life Histories Project portion of the Federal Writers’ Project during the 1930s (forthcoming in 2022 with Stanford University Press). This innovative digital book demonstrates how gender and race informed the writing practices used to create the concept of “life histories,” which documented the lives of Southerners struggling to survive the Great Depression.
+

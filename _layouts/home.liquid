@@ -2,6 +2,10 @@
 layout: default
 ---
 
+
+
+{% comment %} Reel of recent blog posts below {% endcomment %}
+
 <h2> Recent Posts </h2>
 
 <div class='row'>
@@ -9,7 +13,7 @@ layout: default
 <div class="col s10 offset-s2">
         <div class="card horizontal medium">
                 <div class="card-image">
-                    <img src="{{ post.img | relative_url }}">
+                    <img src="{{ post.img | relative_url }}" alt="{{ post.img_alt_text | relative_url }}">
                 </div>
                 <div class='card-stacked'>
                 <div class="card-content">
