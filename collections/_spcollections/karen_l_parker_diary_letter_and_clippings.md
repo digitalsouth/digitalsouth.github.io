@@ -5,7 +5,7 @@ description: "The first African-American woman undergraduate to attend the Unive
 url_to_collection: https://finding-aids.lib.unc.edu/05275/#folder_1#1
 img: assets/img/spcollections/karen_parker_journal.jpg
 img_alt_text: "Scan of the cover of Karen Parker's journal from the Karen Parker Journal collection"
-document_types: Correspondence, Diary, Newspaper Clippings
+document_types: Correspondences, Diary, Newspaper Clippings
 title: Karen L. Parker Diary, Letter, and Clippings
 link_title: karen_l_parker_diary_letter,_and_clippings
 ---

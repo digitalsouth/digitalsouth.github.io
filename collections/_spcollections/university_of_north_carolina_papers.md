@@ -5,7 +5,7 @@ description: "The University of North Carolina was chartered by the state's Gene
 url_to_collection: https://finding-aids.lib.unc.edu/40005/
 img: assets/img/spcollections/unc_papers.jpg
 img_alt_text: "Scan of a handwritten document from the University of North Carolina collection"
-document_types: Academic Records, Correspondence, Financial Documents
+document_types: Academic Records, Correspondences, Financial Documents
 title: University of North Carolina Papers
 link_title: university_of_north_carolina_papers
 ---

@@ -6,7 +6,7 @@ thumbnail_picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2
 url_to_collection: https://finding-aids.lib.unc.edu/03709/
 img: assets/img/spcollections/federal_writers_project.jpg
 img_alt_text: "Scan of a document from the Federal Writers Project collection"
-document_types: Correspondence|Microfilm|Narrative Documents
+document_types: Correspondences, Microfilm, Narrative Documents
 title: Federal Writers' Project Papers
 link-title: federal_writers'_project_papers
 ---

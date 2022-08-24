@@ -6,7 +6,7 @@ thumbnail_picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2
 url_to_collection: https://finding-aids.lib.unc.edu/00133/
 img: assets/img/spcollections/cameron_family_papers.jpg
 img_alt_text: "Scan of a document from the Cameron Family Papers collection" 
-document_types: Correspondence, Financial Documents, Ledgers, Legal Documents, Pictures
+document_types: Correspondences, Financial Documents, Ledgers, Legal Documents, Pictures
 title: Cameron Family Papers
 link_title: cameron_family_papers
 
