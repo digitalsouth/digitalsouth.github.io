@@ -8,4 +8,5 @@ description: "The Descendants Project, a collaboration between Dr. Hinson’s re
 class_title: "ANTH/FOLK 370, ANTH 790"
 link_title: descendants_project
 img: assets/img/projects/descendants.jpg
+img_alt_text: "Scan of a historical newspaper"
 ---

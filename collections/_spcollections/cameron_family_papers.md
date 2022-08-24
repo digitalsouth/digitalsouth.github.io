@@ -5,7 +5,9 @@ description: "Cameron family of Orange and Durham counties and Raleigh, N.C. Amo
 thumbnail_picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2022/01/Folder_12_1772_Scan_5.jpg
 url_to_collection: https://finding-aids.lib.unc.edu/00133/
 img: assets/img/spcollections/cameron_family_papers.jpg
+img_alt_text: "Scan of a document from the Cameron Family Papers collection" 
 document_types: Correspondence, Financial Documents, Ledgers, Legal Documents, Pictures
 title: Cameron Family Papers
 link_title: cameron_family_papers
+
 ---

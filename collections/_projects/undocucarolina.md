@@ -10,4 +10,6 @@ description: "UndocuCarolina is a collaboration of the Carolina Latinx Center, L
 class-title: nan
 link-title: undocucarolina
 img: assets/img/projects/undocucarolina.jpg
+img_alt_text: "Logo of Undocucarolina."
+
 ---

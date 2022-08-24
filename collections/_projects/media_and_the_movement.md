@@ -10,4 +10,5 @@ description: "Media and the Movement: Journalism, Civil Rights, and Black Power 
 class: nan
 link-title: media_and_the_movement
 img: assets/img/spcollections/media_movement.jpg
+img_alt_text: "Picture of a speaking event from the Media and the Movement Collection."
 ---

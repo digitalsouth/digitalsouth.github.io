@@ -1,0 +1,122 @@
+I"Þ<div class="section">
+    <h2 class="header">
+        About the Featured Collections
+    </h2>
+    <p class="flow-text light">
+        The Louis Round Wilson Library houses the special collections at University of North Carolina at Chapel Hill. It houses five key collections: the North Carolina Collection, the Rare Book Collection, the Southern Folklife Collection, the Southern Historical
+        Collection, and the University Archives and Records Management Services. The documents within these collections are available for research and for use in the classroom as teaching and learning tools. Additionally, many of these collections have
+        been fully digitized or are undergoing the digitization process. A list of fully digitized collections can be found here alongside some notable digital exhibits hosted by Wilson.
+
+    </p>
+
+
+    <p class="flow-text light">
+        We have included this Special Collections page because many of the spotlighted digital projects use documents from these collections for their research or pedagogical projects. Whether as teaching tools or as data, the immense trove of documents and potential
+        resources on the American South and the peoples who live(d) within should be highlighted alongside the projects and scholars. Below are featured collections that are either completely or partially digitized. We have also included collections that
+        havenâ€™t been used but may serve as inspiration for future digital research on the South!
+    </p>
+
+</div>
+
+<div class="section row">
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/cameron_family_papers.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Cameron Family Papers</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/cameron-family-papers"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/kentucky_aa_migration.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Eastern Kentucky African American Migration Project Collection</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/eastern-kentucky-african-american-migration-project-collection"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/federal_writers_project.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Federal Writers' Project Papers</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/federal-writers-project-papers"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/karen_parker_journal.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Karen L. Parker Diary, Letter, and Clippings</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/karen-l-parker-diary-letter-and-clippings"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/leah_wise_img.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Leah Wise Papers</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/leah-wise-papers"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/media_movement.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Media and the Movement Project Collection of Black-Owned Radio Station Broadcasts</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/media-and-the-movement-project-collection-of-black-owned-radio-station-broadcasts"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s4 m4 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/unc_papers.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> University of North Carolina Papers</span>
+            </div>
+            <div class="card-action">
+                <a href="/spcollections/university-of-north-carolina-papers"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+:ET

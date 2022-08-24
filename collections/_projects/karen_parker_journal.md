@@ -9,4 +9,5 @@ description: "'This StoryMap provides a multimedia tour of Karen Parker’s jour
 class_title: GEO 124
 link_title: mapping_karen_parkers_journal
 img: assets/img/projects/karen_parker.jpg
+img_alt_text: "A photograph of Karen Parker."
 ---

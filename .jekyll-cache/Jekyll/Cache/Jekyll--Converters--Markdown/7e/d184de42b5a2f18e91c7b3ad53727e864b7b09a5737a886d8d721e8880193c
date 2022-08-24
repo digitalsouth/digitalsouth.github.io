@@ -1,0 +1,230 @@
+I"�&<div class="section">
+    <h2 class="header">
+        About the Featured Projects
+    </h2>
+    <p class="flow-text light">
+        Welcome to our Featured Projects page! This collection span humanities and social science departments through UNC while maintaining a focus in the American South while utilizing digital methods to carry their pedagogical or research goals. These methodologies
+        range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
+
+    </p>
+
+
+    <p class="flow-text light">
+        Further, we have chosen to focus on projects that have been created in approximately the last 5 years with most being from the year or two. What this has let us discover is that Carolina is rich with digital pedagogy initiatives that allow students of
+        all standing, faculty, and staff to collaborate with one another. These projects aren’t only focused on the classroom, as others originate from the scholars’ venture into special collections, digitized newspapers, and beyond. </p>
+</div>
+
+<div class="row">
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/red_record.jpg" alt="/Grainy%20historical%20image%20of%20a%20handful%20of%20men%20from%20the%20early%20twentieth%20century" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> A Red Record</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/a-red-record"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/cameron_family_papers.jpg" alt="/Scan%20of%20a%20historical%20ledger%20from%20the%20Cameron%20Family%20Papers%20collection" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Cameron Family Papers as Data</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/cameron-family-papers-as-data"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/descendants.jpg" alt="/Scan%20of%20a%20historical%20newspaper" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Descendants Project</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/descendants-project"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/durham1940.jpg" alt="/Map%20of%20Durham,%20North%20Carolina%20from%201940" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Durham's Geographic Histories</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/durhams-geographic-histories"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/hips_photo.jpg" alt="/Scan%20of%20a%20historical%20handwritten%20ledger%20from%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Hidden in Plain Sight</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/hidden-in-plain-sight"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/karen_parker.jpg" alt="/A%20photograph%20of%20Karen%20Parker" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Mapping Karen Parker's Journal</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/karen-parker-journal"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/federal_writers_project.jpg" alt="/Scan%20of%20a%20document%20from%20the%20Federal%20Writers%20Project%20collection" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Layered Lives</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/layered-lives"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/bt_durham.jpg" alt="/Black%20and%20white%20arial%20photograph%20of%20some%20buildings%20in%20Durham" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Mapping Black Towns</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/mapping-black-towns"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/spcollections/media_movement.jpg" alt="/Picture%20of%20a%20speaking%20event%20from%20the%20Media%20and%20the%20Movement%20Collection." />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Media and the Movement</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/media-and-the-movement"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/otb.jpg" alt="/Photograph%20of%20individuals%20protesting%20segregation,%20with%20a%20sign%20with%20'How%20much%20longer?'%20prominently%20featured." />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> On The Books</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/on-the-books"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/feature/otg.jpg" alt="/Historical%20drawing%20of%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill." />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> On These Grounds</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/on-these-grounds"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/plastic_archeology.jpg" alt="/Photograph%20of%20a%20various%20small%20and%20broken%20plastic%20objects." />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Plastic Archeology</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/plastic-archeology"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/ss_online.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> Silent Sam Online</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/silent-sam-online"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/silent_sam.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> #SilentSam</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/silentsam"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col s12 m6 l4">
+        <div class="card medium blue darken-3 hoverable">
+            <div class="card-image">
+                <img src="/assets/img/projects/undocucarolina.jpg" alt="" />
+            </div>
+            <div class="card-content white-text">
+                <span class="card-title"> UndocuCarolina</span>
+            </div>
+            <div class="card-action">
+                <a href="/projects/undocucarolina"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    
+</div>
+:ET

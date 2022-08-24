@@ -5,7 +5,8 @@ description: "The Eastern Kentucky African American Migration Project (EKAAMP) i
 thumbnail_picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2022/02/football_team.jpeg
 url_to_collection: https://finding-aids.lib.unc.edu/05585/
 img: assets/img/spcollections/kentucky_aa_migration.jpg
-document_types: Audiovisual|Narrative Documents|Pictures
+img_alt_text: "Picture of three young boys from the Eastern Kentucky African American Migration Project collection"
+document_types: Audiovisual, Narrative Documents, Pictures
 title: Eastern Kentucky African American Migration Project Collection
 link_title: eastern_kentucky_african_american_migration_project_collection
 ---

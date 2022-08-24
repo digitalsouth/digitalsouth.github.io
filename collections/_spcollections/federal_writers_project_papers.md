@@ -5,6 +5,7 @@ description: "W. T. Couch (1901), a white publisher and editor, was also a part-
 thumbnail_picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2021/11/Screen-Shot-2022-01-04-at-12.25.46-PM.png
 url_to_collection: https://finding-aids.lib.unc.edu/03709/
 img: assets/img/spcollections/federal_writers_project.jpg
+img_alt_text: "Scan of a document from the Federal Writers Project collection"
 document_types: Correspondence|Microfilm|Narrative Documents
 title: Federal Writers' Project Papers
 link-title: federal_writers'_project_papers
