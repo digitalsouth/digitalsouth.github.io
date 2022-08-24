@@ -1,9 +1,11 @@
 ---
 layout: default
 ---
+{% assign proj_scholar = site.scholars | where: "name", page.main_scholar | first %}
+
 <div class="row" aria-text="project information">
 <h2 class="col s12 m12 header" style="width: fit-content"> {{ page.title }} </h2>
-<h3 class="col s12 m12"> {{ page.main_scholar }} {% if page.other_scholars_involved%} & {{ page.other_scholars_involved}} {% endif %} </h3>
+<h3 class="col s12 m12"> <a href="{{ proj_scholar.url | relative_url }}" style="color: black">{{ page.main_scholar }} </a> {% if page.other_scholars_involved%} & {{ page.other_scholars_involved}} {% endif %} </h3>
 <div class="col s12 divider"></div>
 <div class="section col s12">
 <h4 class="header">DESCRIPTIION:</h4>

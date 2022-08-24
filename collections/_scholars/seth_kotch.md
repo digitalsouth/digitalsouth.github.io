@@ -2,7 +2,7 @@
 layout: scholar
 ID: 1391
 Title: seth_kotch
-name: Seth Kotch
+name: "Seth Kotch"
 title: Director of Graduate Studies
 department: Department of American Studies
 unc_site: https://americanstudies.unc.edu/seth-kotch/
