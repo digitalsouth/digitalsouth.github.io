@@ -27,7 +27,8 @@
                 <img src="{{ col.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
             </div>
             <div class="card-content white-text">
-                <span class="card-title"> {{ col.title }}</span>
+                <p class="orange-text accent-2"> {{ col.years_covered }}</p>
+                <p class="card-title"> {{ col.title }} </p>
             </div>
             <div class='card-action'>
                 <a href="{{ col.url | relative_url }}"> Learn More</a>

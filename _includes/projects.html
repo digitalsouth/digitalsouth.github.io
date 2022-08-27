@@ -13,8 +13,8 @@
         Further, we have chosen to focus on projects that have been created in approximately the last 5 years with most being from the year or two. What this has let us discover is that Carolina is rich with digital pedagogy initiatives that allow students of
         all standing, faculty, and staff to collaborate with one another. These projects aren’t only focused on the classroom, as others originate from the scholars’ venture into special collections, digitized newspapers, and beyond. </p>
 </div>
-
-
+<div class="divider"></div>
+<h3> Search Featured Projects</h3>
 <div class='row'>
     {% for project in site.projects %}
     <div class="col s12 m6 l4">
@@ -23,7 +23,9 @@
                 <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
             </div>
             <div class="card-content white-text">
-                <span class="card-title"> {{ project.title }}</span>
+                <p class="card-title"> {{ project.title }}</p>
+                {% if project.subtitle and project.subtitle != 'nan' %}
+                <p> {{ project.subtitle }} </p> {% endif %}
             </div>
             <div class='card-action'>
                 <a href="{{ project.url | relative_url }}"> Learn More</a>

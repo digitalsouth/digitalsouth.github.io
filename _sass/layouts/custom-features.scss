@@ -29,9 +29,39 @@
     }
 }
 
-h2.header {
-    padding: 0;
-    color: #467aaa;
-    width: fit-content;
-    font-weight: 400;
+h2.blog_header_text {
+    @extend .header_text !optional;
+    text-decoration: underline solid color("orange", "accent-2");
+    margin: 0.5em auto 0.1em auto;
+}
+
+.blog_header {
+    text-align: center;
+}
+
+a:hover {
+    color: color("orange", "accent-2");
+}
+
+*::selection {
+    background-color: #7AAA46;
+    color: white;
+}
+
+.event-card-date {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    background: #7AAA46;
+    padding: 0.5em;
+    color: white;
+}
+
+.event-card-type {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+    background: black;
+    padding: 0.5em;
+    color: white;
 }

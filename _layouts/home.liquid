@@ -2,17 +2,61 @@
 layout: default
 ---
 
+  {% assign num_events = site.events | size %}
+    {% if num_events == 2 %}
+        {% assign size = "col s10 m5 offset-s1" -%}
+    {% elsif num_events == 1%}
+        {% assign size = "col s10 m5 offset-s1" -%}
+    {% else %}
+        {% assign size = "col s10 m4" -%}
+    {% endif %}
 
+{% comment %} Event Block {% endcomment %}
+<div class='row align-center'>
+    <div class="blog_header">
+        <h2 class="header"> UPCOMING EVENTS </h2>
+    </div>
+
+<div class='row'>
+
+
+    {% for event in site.events limit:3 %}
+    <div class="{{ size }}">
+        <div class="card small hoverable" style="background-color: #467aaa">
+            <div class="card-image">
+                <img src="{{ event.img | relative_url }}" alt="{{ event.img_alt_text | relative_url }}">
+                <span class="event-card-date z-depth-1"> {{ event.date | date: "%b %d, %y" }} </span> 
+            </div>
+            <div class="card-content">
+                <h6 class="orange-text accent-2"> {{ event.series }} </h6>
+                <h5 class="white-text" style="margin-top:0px;"> {{ event.title }}{% if event.subtitle %}: </h5>
+                <h6 style="margin-top:0px;" class="white-text"> {{ event.subtitle }} </h6> 
+                {% else %} 
+                    </h5>
+                {% endif %}
+            </div>
+            <div class='card-action'>
+            <a href="{{ event.link | relative_url }}"> Learn More</a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+
+</div>
+
+<div class='divider'></div>
 
 {% comment %} Reel of recent blog posts below {% endcomment %}
 
-<h2> Recent Posts </h2>
 
 <div class='row'>
-{% for post in site.posts %}
-<div class="col s10 offset-s2">
-        <div class="card horizontal medium">
-                <div class="card-image">
+    <div class="blog_header" style="margin-top: 2em;">
+        <h2 class="header"> RECENT POSTS </h2>
+    </div>
+{% for post in site.posts limit:3 %}
+<div class="col s10 offset-s1">
+        <div class="card horizontal medium hoverable">
+                <div class="card-image hide-on-med-and-down">
                     <img src="{{ post.img | relative_url }}" alt="{{ post.img_alt_text | relative_url }}">
                 </div>
                 <div class='card-stacked'>

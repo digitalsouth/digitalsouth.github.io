@@ -12,7 +12,7 @@ nav {
     }
     color: $navbar-font-color;
     @extend .z-depth-1;
-    background-color: $primary-color;
+    background-color: black;
     width: 100%;
     height: $navbar-height-mobile;
     line-height: $navbar-line-height-mobile;
@@ -54,6 +54,7 @@ nav {
         position: absolute;
         color: $navbar-font-color;
         display: inline-block;
+        background-color: #467aaa;
         font-size: $navbar-brand-font-size;
         padding: 0;
         &.center {
@@ -91,8 +92,13 @@ nav {
     // Title
     .nav-title {
         display: inline-block;
-        font-size: 32px;
-        padding: auto 0;
+        background-color: black;
+        color: #467aaa;
+        border-right: 5px solid white;
+        font-size: 28px;
+        height: 100%;
+        width: 10%;
+        padding: auto 1em;
         margin-left: 0.5em;
     }
     // Navbar Links

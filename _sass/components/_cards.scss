@@ -27,11 +27,13 @@
     &.large {
         position: relative;
         .card-image {
-            max-height: 60%;
+            max-height: 40%;
             overflow: hidden;
+            object-fit: cover;
+            object-position: center;
         }
         .card-image+.card-content {
-            max-height: 40%;
+            max-height: 60%;
         }
         .card-content {
             max-height: 100%;
@@ -130,10 +132,10 @@
         }
         .card-title {
             display: block;
-            line-height: 32px;
-            margin-bottom: 8px;
+            line-height: 28px;
+            margin-bottom: 4px;
             i {
-                line-height: 32px;
+                line-height: 28px;
             }
         }
     }

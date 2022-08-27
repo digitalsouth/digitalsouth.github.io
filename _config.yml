@@ -42,6 +42,10 @@ collections:
     output: true
     sort_by: name
     permalink: /:collection/:name
+  events:
+    output: true
+    sort_by: date
+    permalink: /:collection/:name
 
 csv_reader:
     converters:
