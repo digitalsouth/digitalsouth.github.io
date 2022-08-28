@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
     <title> The Digital South At University of North Carolina – Chapel Hill </title>
+    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -17,15 +19,9 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- Simple Jekyll Search 1.10.0 -->
-    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Projects">
-    <meta name="twitter:description" content="{% include projects.html %}">
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/computer.jpeg">
-    <meta name="twitter:image:alt" content="Projects">
+
+    
 </head>
 
 
@@ -45,12 +41,27 @@
 
         
             
+            <li>
+                <a title="ABOUT" href="/about/" class="active">
+                <span>ABOUT</span>
+                </a>
+            </li>
+            
             
         
             
             <li>
-                <a title="ABOUT" href="/about/" class="active">
-                <span>ABOUT</span>
+                <a title="SCHOLARS" href="/scholars/" class="active">
+                <span>SCHOLARS</span>
+                </a>
+            </li>
+            
+            
+        
+            
+            <li>
+                <a title="PROJECTS" href="/projects/" class="active">
+                <span>PROJECTS</span>
                 </a>
             </li>
             
@@ -71,39 +82,6 @@
             
             
         
-            
-            <li>
-                <a title="PROJECTS" href="/projects/" class="active">
-                <span>PROJECTS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SCHOLARS" href="/scholars/" class="active">
-                <span>SCHOLARS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SEARCH" href="/search/" class="active">
-                <span>SEARCH</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="TAGS" href="/tags/" class="active">
-                <span>TAGS</span>
-                </a>
-            </li>
             
             
         
@@ -127,10 +105,16 @@
 </header>
  <article class='feature-container' aria-label="Banner image" tabindex="0">
 
-<img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
-<div class="feature-text header hide-on-medium-and-down" aria-label="banner text"><h1 aria-label="The Digital South @ UNC"> THE DIGITAL SOUTH @ UNC </h1></div>
+    <img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
 
-</article>
+    <div class="feature-text-container" aria-label="banner text">
+        <h1 aria-label="The Digital South @ UNC" class="feature-text"> 
+            THE DIGITAL SOUTH @ UNC 
+        </h1>
+    </div>
+
+</article> 
+
 
     <main class="container">
 
@@ -150,10 +134,31 @@
         all standing, faculty, and staff to collaborate with one another. These projects aren’t only focused on the classroom, as others originate from the scholars’ venture into special collections, digitized newspapers, and beyond. </p>
 </div>
 <div class="divider"></div>
-<h3> Search Featured Projects</h3>
 <div class="row">
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s3">
+        <label>Filter Projects</label>
+        <select class="browser-default" id="project-filter">
+                <option class="option" value="all">All Projects</option>
+             
+                <option class="option" value="Ongoing"> Ongoing </option>
+            
+                <option class="option" value="Past"> Past </option>
+            
+                <option class="option" value="Upcoming"> Upcoming </option>
+            
+                <option class="option" value="Current"> Current </option>
+            
+                <option class="option" value="">  </option>
+            
+        </select>
+    </div>
+
+    <!-- Gallery Cards !-->
+    <div class="col s12" style="margin-bottom: 3em;"></div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Ongoing">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/red_record.jpg" alt="/Grainy%20historical%20image%20of%20a%20handful%20of%20men%20from%20the%20early%20twentieth%20century" />
@@ -168,7 +173,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Ongoing">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/cameron_family_papers.jpg" alt="/Scan%20of%20a%20historical%20ledger%20from%20the%20Cameron%20Family%20Papers%20collection" />
@@ -183,7 +188,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Ongoing">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/descendants.jpg" alt="/Scan%20of%20a%20historical%20newspaper" />
@@ -198,7 +203,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Past">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/durham1940.jpg" alt="/Map%20of%20Durham,%20North%20Carolina%20from%201940" />
@@ -213,7 +218,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Ongoing">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/hips_photo.jpg" alt="/Scan%20of%20a%20historical%20handwritten%20ledger%20from%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill" />
@@ -228,7 +233,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Past">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/karen_parker.jpg" alt="/A%20photograph%20of%20Karen%20Parker." />
@@ -243,7 +248,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Upcoming">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/federal_writers_project.jpg" alt="/Scan%20of%20a%20document%20from%20the%20Federal%20Writers%20Project%20collection" />
@@ -258,7 +263,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Current">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/bt_durham.jpg" alt="/Black%20and%20white%20arial%20photograph%20of%20some%20buildings%20in%20Durham" />
@@ -273,7 +278,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Past">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/media_movement.jpg" alt="/Picture%20of%20a%20speaking%20event%20from%20the%20Media%20and%20the%20Movement%20Collection." />
@@ -289,7 +294,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Current">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/pm_photo.png" alt="/Photograph%20of%20Pauli%20Murray%20writing.%20Courtesy%20of%20the%20Schlesinger%20Library%20at%20Harvard%20University" />
@@ -304,7 +309,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Current">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/otb.jpg" alt="/Photograph%20of%20individuals%20protesting%20segregation,%20with%20a%20sign%20with%20'How%20much%20longer?'%20prominently%20featured." />
@@ -320,7 +325,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/feature/otg.jpg" alt="/Historical%20drawing%20of%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill." />
@@ -336,7 +341,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Ongoing">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/plastic_archeology.jpg" alt="/Photograph%20of%20a%20various%20small%20and%20broken%20plastic%20objects." />
@@ -351,7 +356,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Past">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/ss_online.jpg" alt="/Grainy%20photograph%20of%20the%20Silent%20Sam%20monument,%20which%20has%20been%20removed%20from%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapell%20Hill%20grounds." />
@@ -366,7 +371,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Past">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/silent_sam.jpg" alt="/Recent%20photograph%20of%20the%20Silent%20Sam%20monument,%20which%20has%20been%20removed%20from%20the%20North%20Carolina%20%E2%80%93%20Chapel%20Hill%20grounds." />
@@ -381,7 +386,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Current">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/projects/undocucarolina.jpg" alt="/Logo%20of%20Undocucarolina." />
@@ -397,6 +402,7 @@
     </div>
     
 </div>
+<p>&lt;/div&gt;</p>
 
 
     </main>
@@ -410,6 +416,7 @@
 </footer>
 
     <script type="text/javascript" src="../assets/js/materialize.js"></script>
+    <script type="text/javascript" src='../assets/js/events.js' defer="defer"></script>
 </body>
 
 

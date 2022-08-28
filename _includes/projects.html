@@ -14,10 +14,23 @@
         all standing, faculty, and staff to collaborate with one another. These projects aren’t only focused on the classroom, as others originate from the scholars’ venture into special collections, digitized newspapers, and beyond. </p>
 </div>
 <div class="divider"></div>
-<h3> Search Featured Projects</h3>
 <div class='row'>
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s3">
+        <label>Filter {{ page.title }}</label>
+        <select class="browser-default" id="project-filter">
+                <option class="option" value="all">All Projects</option>
+            {% assign currency = site.projects | map: 'currency' | join: ',' | split: ',' | uniq %} {% for c in currency %}
+                <option class="option" value="{{ c }}"> {{ c }} </option>
+            {% endfor %}
+        </select>
+    </div>
+
+    <!-- Gallery Cards !-->
+    <div class="col s12" style="margin-bottom: 3em;"></div>
     {% for project in site.projects %}
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ project.currency }}">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
@@ -33,4 +46,5 @@
         </div>
     </div>
     {% endfor %}
+</div>
 </div>

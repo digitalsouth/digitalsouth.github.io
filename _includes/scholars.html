@@ -14,18 +14,24 @@
 </div>
 <div class="divider"></div>
 <div class='section row'>
-    <div class="input-field col s12">
-        <select>
-        {% assign departments = site.scholars | map: 'department' | join: ',' | split: ',' | uniq %} 
-        {% for dep in departments %}
-            <option> {{ dep }} </option>
-        {% endfor %}
+
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s3">
+        <label>Filter {{ page.title }}</label>
+        <select class="browser-default" id="scholar-filter">
+                <option class="option" value="all">All Departments</option>
+            {% assign departments = site.scholars | map: 'department' | join: ',' | split: ',' | uniq %} {% for dep in departments %}
+                <option class="option" value="{{ dep }}"> {{ dep }} </option>
+            {% endfor %}
         </select>
-        <label>Filter Scholars</label>
     </div>
-    <div class="col s12 divider" style="margin-bottom: 3em;"></div>
+
+
+    <!-- Gallery Cards !-->
+    <div class="col s12" style="margin-bottom: 3em;"></div>
     {% for scholar in site.scholars %}
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ scholar.department }}">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> {{ scholar.name }}</span>

@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
     <title> The Digital South At University of North Carolina – Chapel Hill </title>
+    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -17,15 +19,9 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- Simple Jekyll Search 1.10.0 -->
-    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Collections">
-    <meta name="twitter:description" content="{% include spcollections.html %}">
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="http://localhost:4000/assets/img/feature/ds_bkd_1.jpg">
-    <meta name="twitter:image:alt" content="Collections">
+
+    
 </head>
 
 
@@ -45,12 +41,27 @@
 
         
             
+            <li>
+                <a title="ABOUT" href="/about/" class="active">
+                <span>ABOUT</span>
+                </a>
+            </li>
+            
             
         
             
             <li>
-                <a title="ABOUT" href="/about/" class="active">
-                <span>ABOUT</span>
+                <a title="SCHOLARS" href="/scholars/" class="active">
+                <span>SCHOLARS</span>
+                </a>
+            </li>
+            
+            
+        
+            
+            <li>
+                <a title="PROJECTS" href="/projects/" class="active">
+                <span>PROJECTS</span>
                 </a>
             </li>
             
@@ -72,38 +83,8 @@
             
         
             
-            <li>
-                <a title="PROJECTS" href="/projects/" class="active">
-                <span>PROJECTS</span>
-                </a>
-            </li>
-            
             
         
-            
-            <li>
-                <a title="SCHOLARS" href="/scholars/" class="active">
-                <span>SCHOLARS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SEARCH" href="/search/" class="active">
-                <span>SEARCH</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="TAGS" href="/tags/" class="active">
-                <span>TAGS</span>
-                </a>
-            </li>
             
             
         
@@ -124,10 +105,16 @@
 </header>
  <article class='feature-container' aria-label="Banner image" tabindex="0">
 
-<img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
-<div class="feature-text header hide-on-medium-and-down" aria-label="banner text"><h1 aria-label="The Digital South @ UNC"> THE DIGITAL SOUTH @ UNC </h1></div>
+    <img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
 
-</article>
+    <div class="feature-text-container" aria-label="banner text">
+        <h1 aria-label="The Digital South @ UNC" class="feature-text"> 
+            THE DIGITAL SOUTH @ UNC 
+        </h1>
+    </div>
+
+</article> 
+
 
     <main class="container">
 
@@ -152,8 +139,46 @@
 </div>
 
 <div class="section row">
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s3">
+        <label>Filter Collections by Document Type</label>
+        <select class="browser-default" id="scholar-filter">
+                <option class="option" value="all">All Collections</option>
+             
+                <option class="option" value="Correspondences"> Correspondences </option>
+            
+                <option class="option" value=" Financial Documents">  Financial Documents </option>
+            
+                <option class="option" value=" Ledgers">  Ledgers </option>
+            
+                <option class="option" value=" Legal Documents">  Legal Documents </option>
+            
+                <option class="option" value=" Pictures">  Pictures </option>
+            
+                <option class="option" value="Audiovisual"> Audiovisual </option>
+            
+                <option class="option" value=" Narrative Documents">  Narrative Documents </option>
+            
+                <option class="option" value=" Microfilm">  Microfilm </option>
+            
+                <option class="option" value=" Diary">  Diary </option>
+            
+                <option class="option" value=" Newspaper Clippings">  Newspaper Clippings </option>
+            
+                <option class="option" value=" Paper Documents">  Paper Documents </option>
+            
+                <option class="option" value="Academic Records"> Academic Records </option>
+            
+                <option class="option" value=" Correspondences">  Correspondences </option>
+            
+        </select>
+    </div>
+
+    <!-- Gallery Cards !-->
+    <div class="col s12" style="margin-bottom: 3em;"></div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Correspondences, Financial Documents, Ledgers, Legal Documents, Pictures">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/cameron_family_papers.jpg" alt="" />
@@ -168,7 +193,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Audiovisual, Narrative Documents, Pictures">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/kentucky_aa_migration.jpg" alt="" />
@@ -183,7 +208,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Correspondences, Microfilm, Narrative Documents">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/federal_writers_project.jpg" alt="" />
@@ -198,7 +223,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Correspondences, Diary, Newspaper Clippings">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/karen_parker_journal.jpg" alt="" />
@@ -213,7 +238,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Audiovisual, Newspaper Clippings, Paper Documents, Pictures">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/leah_wise_img.jpg" alt="" />
@@ -228,7 +253,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Audiovisual, Pictures">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/media_movement.jpg" alt="" />
@@ -243,7 +268,7 @@
         </div>
     </div>
     
-    <div class="col s4 m4 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Academic Records, Correspondences, Financial Documents">
         <div class="card medium blue darken-3 hoverable">
             <div class="card-image">
                 <img src="/assets/img/spcollections/unc_papers.jpg" alt="" />
@@ -272,6 +297,7 @@
 </footer>
 
     <script type="text/javascript" src="../assets/js/materialize.js"></script>
+    <script type="text/javascript" src='../assets/js/events.js' defer="defer"></script>
 </body>
 
 

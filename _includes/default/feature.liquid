@@ -1,6 +1,11 @@
 <article class='feature-container' aria-label="Banner image" tabindex="0">
 
-<img src="{{ site.header_feature_image | relative_url }}" alt="Banner image of a network of people icons with text on the outter edges.">
-<div class="feature-text header hide-on-medium-and-down" aria-label="banner text"><h1 aria-label="{{ site.title }}"> {{ site.title | upcase }} </h1></div>
+    <img src="{{ site.header_feature_image | relative_url }}" alt="Banner image of a network of people icons with text on the outter edges.">
+
+    <div class="feature-text-container" aria-label="banner text">
+        <h1 aria-label="{{ site.title }}" class="feature-text"> 
+            {{ site.title | upcase }} 
+        </h1>
+    </div>
 
 </article>

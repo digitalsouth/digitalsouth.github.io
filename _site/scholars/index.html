@@ -5,8 +5,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
     <title> The Digital South At University of North Carolina – Chapel Hill </title>
+    
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
     <!-- CSS -->
     <link rel="stylesheet" href="/assets/css/main.css">
 
@@ -17,15 +19,9 @@
     <link rel="shortcut icon" href="" type="image/x-icon">
 
     <!-- Simple Jekyll Search 1.10.0 -->
-    <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
-
-    <!-- Twitter Cards -->
-    <meta name="twitter:title" content="Scholars">
-    <meta name="twitter:description" content="{% include scholars.html %}">
     
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:image" content="http://localhost:4000/assets/img/pexels/computer.jpeg">
-    <meta name="twitter:image:alt" content="Scholars">
+
+    
 </head>
 
 
@@ -45,12 +41,27 @@
 
         
             
+            <li>
+                <a title="ABOUT" href="/about/" class="active">
+                <span>ABOUT</span>
+                </a>
+            </li>
+            
             
         
             
             <li>
-                <a title="ABOUT" href="/about/" class="active">
-                <span>ABOUT</span>
+                <a title="SCHOLARS" href="/scholars/" class="active">
+                <span>SCHOLARS</span>
+                </a>
+            </li>
+            
+            
+        
+            
+            <li>
+                <a title="PROJECTS" href="/projects/" class="active">
+                <span>PROJECTS</span>
                 </a>
             </li>
             
@@ -71,39 +82,6 @@
             
             
         
-            
-            <li>
-                <a title="PROJECTS" href="/projects/" class="active">
-                <span>PROJECTS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SCHOLARS" href="/scholars/" class="active">
-                <span>SCHOLARS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SEARCH" href="/search/" class="active">
-                <span>SEARCH</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="TAGS" href="/tags/" class="active">
-                <span>TAGS</span>
-                </a>
-            </li>
             
             
         
@@ -127,10 +105,16 @@
 </header>
  <article class='feature-container' aria-label="Banner image" tabindex="0">
 
-<img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
-<div class="feature-text header hide-on-medium-and-down" aria-label="banner text"><h1 aria-label="The Digital South @ UNC"> THE DIGITAL SOUTH @ UNC </h1></div>
+    <img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
 
-</article>
+    <div class="feature-text-container" aria-label="banner text">
+        <h1 aria-label="The Digital South @ UNC" class="feature-text"> 
+            THE DIGITAL SOUTH @ UNC 
+        </h1>
+    </div>
+
+</article> 
+
 
     <main class="container">
 
@@ -150,36 +134,42 @@
 </div>
 <div class="divider"></div>
 <div class="section row">
-    <div class="input-field col s12">
-        <select>
-         
-        
-            <option> Wilson Library </option>
-        
-            <option> Davis Library </option>
-        
-            <option> Department of Anthropology </option>
-        
-            <option> Department of English and Comparative Literature </option>
-        
-            <option> Department of Geography </option>
-        
-            <option> Department of American Studies </option>
-        
-            <option> Department of American Studies &amp; Anthropology </option>
-        
-            <option> Department of History </option>
-        
-            <option> Hussman School of Journalism and Media </option>
-        
-            <option> Department of Women's &amp; Gender Studies </option>
-        
-        </select>
+
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s3">
         <label>Filter Scholars</label>
+        <select class="browser-default" id="scholar-filter">
+                <option class="option" value="all">All Departments</option>
+             
+                <option class="option" value="Wilson Library"> Wilson Library </option>
+            
+                <option class="option" value="Davis Library"> Davis Library </option>
+            
+                <option class="option" value="Department of Anthropology"> Department of Anthropology </option>
+            
+                <option class="option" value="Department of English and Comparative Literature"> Department of English and Comparative Literature </option>
+            
+                <option class="option" value="Department of Geography"> Department of Geography </option>
+            
+                <option class="option" value="Department of American Studies"> Department of American Studies </option>
+            
+                <option class="option" value="Department of American Studies &amp; Anthropology"> Department of American Studies &amp; Anthropology </option>
+            
+                <option class="option" value="Department of History"> Department of History </option>
+            
+                <option class="option" value="Hussman School of Journalism and Media"> Hussman School of Journalism and Media </option>
+            
+                <option class="option" value="Department of Women's &amp; Gender Studies"> Department of Women's &amp; Gender Studies </option>
+            
+        </select>
     </div>
-    <div class="col s12 divider" style="margin-bottom: 3em;"></div>
+
+
+    <!-- Gallery Cards !-->
+    <div class="col s12" style="margin-bottom: 3em;"></div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Wilson Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Aaron Smithers</span>
@@ -191,7 +181,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Davis Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Amanda Henley</span>
@@ -203,7 +193,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Anthropology">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Angela Stuesse</span>
@@ -215,7 +205,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Anthropology">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Anna Agbe-Davies</span>
@@ -227,7 +217,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Wilson Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Chaitra Powell</span>
@@ -239,7 +229,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of English and Comparative Literature">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Courtney Rivard</span>
@@ -251,7 +241,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of English and Comparative Literature">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Dan Anderson</span>
@@ -263,7 +253,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of English and Comparative Literature">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Danielle Christmas</span>
@@ -275,7 +265,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Geography">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Danielle Purifoy</span>
@@ -287,7 +277,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Geography">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Diego Riveros-Iregui</span>
@@ -299,7 +289,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of American Studies">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Elizabeth Engelhardt</span>
@@ -311,7 +301,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of American Studies &amp; Anthropology">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Glenn Hinson</span>
@@ -323,7 +313,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of History">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> James L. Leloudis</span>
@@ -335,7 +325,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Hussman School of Journalism and Media">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Lisa Villamil</span>
@@ -347,7 +337,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Davis Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Lorin Bruckner</span>
@@ -359,7 +349,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Davis Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Matthew Jansen</span>
@@ -371,7 +361,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Wilson Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Matthew Turi</span>
@@ -383,7 +373,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Geography">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Nina Martin</span>
@@ -395,7 +385,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Geography">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Paul Delamater</span>
@@ -407,7 +397,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Wilson Library">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Sarah Carrier</span>
@@ -419,7 +409,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of American Studies">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Seth Kotch</span>
@@ -431,7 +421,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of Women's &amp; Gender Studies">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> Susan Harbage Page</span>
@@ -443,7 +433,7 @@
         </div>
     </div>
     
-    <div class="col s12 m6 l4">
+    <div class="col s12 m6 l4 gallery-card scale-transition" value="Department of History">
         <div class="card small blue darken-3 hoverable">
             <div class="card-content white-text">
                 <span class="card-title"> W. Fitzhugh Brundage</span>
@@ -469,6 +459,7 @@
 </footer>
 
     <script type="text/javascript" src="../assets/js/materialize.js"></script>
+    <script type="text/javascript" src='../assets/js/events.js' defer="defer"></script>
 </body>
 
 

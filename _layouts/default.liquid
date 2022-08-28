@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en">
+{% include default/head.liquid %}
+
+<body>
+    {% include default/navbar.liquid %} {% include default/feature.liquid %} {% if page.layout == "home" %} {% include default/events.liquid %} {% endif %}
+
+
+    <main class="{% if page.layout != " home " %}container{% endif %}">
+
+        {{ content }}
+
+    </main>
+    {% include default/footer.liquid %}
+
+    <script type="text/javascript" src="../assets/js/materialize.js"></script>
+    <script type="text/javascript" src='../assets/js/events.js' defer="defer"></script>
+</body>
+
+
+</html>

@@ -1,0 +1,45 @@
+{% assign num_events = site.events | size %}
+    {% if num_events == 2 %}
+        {% assign size = "col s8 l3 offset-s2" -%}
+        {% assign offset = "offset-l2" -%}
+    {% elsif num_events == 1%}
+        {% assign size = "col s8 offset-s2" -%}
+        {% assign offset = "offset-l2" -%}
+    {% else %}
+        {% assign size = "col s8 l3 offset-s2" -%}
+        {% assign offset = "" -%}
+    {% endif %}
+
+
+
+
+<div style="background-color: #467aaa;">
+    {% comment %} Event Block {% endcomment %}
+    <div class='row'>
+        <div class="col s9 offset-s2" style="margin-top: 2em; margin-bottom: 0.75em;">
+            <h5 class="header white-text"> UPCOMING EVENTS </h5>
+        </div>
+
+        {% for event in site.events limit:3 %}
+        <div class="{{ size }}{% if forloop.first %} {{ offset }}{% endif %}">
+            <div class="card small">
+                <div class="card-image">
+                    <img src="{{ event.img | relative_url }}" alt="{{ event.img_alt_text | relative_url }}">
+                    <span class="event-card-date z-depth-1"> {{ event.date | date: "%b %d, %y" }} </span>
+                </div>
+                <div class="card-content">
+                    <h6 class="orange-text accent-2"> {{ event.series }} </h6>
+                    <h5 class="" style="margin-top:0px;"> {{ event.title }}{% if event.subtitle %}: </h5>
+                    <h6 style="margin-top:0px;" class=""> {{ event.subtitle }} </h6>
+                    {% else %}
+                    </h5>
+                    {% endif %}
+                </div>
+                <div class='card-action'>
+                    <a href="{{ event.link | relative_url }}"> Learn More</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
