@@ -4,14 +4,13 @@
 {% include default/head.liquid %}
 
 <body>
-    {% include default/navbar.liquid %} {% include default/feature.liquid %} {% if page.layout == "home" %} {% include default/events.liquid %} {% endif %}
+    {% include default/navbar.liquid %} {% include default/feature.liquid %} {% if page.layout == "home" %} {% include default/events.liquid %}{% endif %}
 
 
-    <main class="{% if page.layout != " home " %}container{% endif %}">
-
+    <main class="">
         {{ content }}
-
     </main>
+    
     {% include default/footer.liquid %}
 
     <script type="text/javascript" src="../assets/js/materialize.js"></script>

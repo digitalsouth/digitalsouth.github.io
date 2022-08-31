@@ -1,23 +1,24 @@
 {% assign num_events = site.events | size %}
     {% if num_events == 2 %}
-        {% assign size = "col s8 l3 offset-s2" -%}
-        {% assign offset = "offset-l2" -%}
+        {% assign size = "col s8 l3 offset-s1" -%}
+        {% assign offset = "offset-l1" -%}
     {% elsif num_events == 1%}
-        {% assign size = "col s8 offset-s2" -%}
-        {% assign offset = "offset-l2" -%}
+        {% assign size = "col s8 offset-s1" -%}
+        {% assign offset = "offset-l1" -%}
     {% else %}
-        {% assign size = "col s8 l3 offset-s2" -%}
+        {% assign size = "col s8 l3 offset-s1" -%}
         {% assign offset = "" -%}
     {% endif %}
 
 
 
 
+{% comment %} Event Block {% endcomment %}
 <div style="background-color: #467aaa;">
-    {% comment %} Event Block {% endcomment %}
     <div class='row'>
-        <div class="col s9 offset-s2" style="margin-top: 2em; margin-bottom: 0.75em;">
-            <h5 class="header white-text"> UPCOMING EVENTS </h5>
+        <div class="col s9 offset-s1" style="margin-top: 2em;">
+            <h5 class="header white-text" style="font-weight: 500; font-size: 2em;">
+            <i class="material-icons" style="font-size: 1.3em; margin-right: 0.33em; top:0.15em; position: relative;">today</i>UPCOMING EVENTS </h5>
         </div>
 
         {% for event in site.events limit:3 %}
@@ -28,15 +29,15 @@
                     <span class="event-card-date z-depth-1"> {{ event.date | date: "%b %d, %y" }} </span>
                 </div>
                 <div class="card-content">
-                    <h6 class="orange-text accent-2"> {{ event.series }} </h6>
-                    <h5 class="" style="margin-top:0px;"> {{ event.title }}{% if event.subtitle %}: </h5>
+                    <h6 class="orange-text accent-2" style="margin-top: 0;"> {{ event.series }} </h6>
+                    <span class="card-title" style="margin-top:0px;"> {{ event.title }}{% if event.subtitle %}: </span>
                     <h6 style="margin-top:0px;" class=""> {{ event.subtitle }} </h6>
                     {% else %}
                     </h5>
                     {% endif %}
                 </div>
                 <div class='card-action'>
-                    <a href="{{ event.link | relative_url }}"> Learn More</a>
+                    <a href="{{ event.link | relative_url }}">Learn More</a>
                 </div>
             </div>
         </div>

@@ -13,7 +13,7 @@
     }
     div {
         position: absolute;
-        top: 50%;
+        top: 45%;
         left: 50%;
         color: white;
         width: 70vw;
@@ -56,6 +56,16 @@ a:hover {
     color: white;
 }
 
+.project-card-type {
+    position: absolute;
+    top: 0.75em;
+    left: 0.75em;
+    background: #7AAA46;
+    padding: 0.5em;
+    color: white;
+    margin: 0;
+}
+
 .event-card-type {
     position: absolute;
     top: 1em;
@@ -81,4 +91,8 @@ a:hover {
 
 .green-text-custom {
     color: #7AAA46;
+}
+
+.green-bg-custom {
+    background-color: #7AAA46;
 }

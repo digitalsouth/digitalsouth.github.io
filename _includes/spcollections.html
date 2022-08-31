@@ -1,49 +1,52 @@
-<div class='section'>
-    <h2 class='header'>
-        About the Featured Collections
-    </h2>
-    <div class="intro-text flow-text light">
-        <p>
-            The Louis Round Wilson Library houses the special collections at the University of North Carolina at Chapel Hill. It houses the University Archives and Records Management Services and five collections: the North Carolina Collection, the Rare Book Collection,
-            the Southern Folklife Collection, and the Southern Historical Collection. These collections are available for research and classroom use. The Libraries has digitized many collections; a list of fully digitized collections can be found here
-            alongside some notable digital exhibits.
-        </p>
-        <p>
-            The collections included here are either completely or partially digitized, and have been either used for digital scholarship projects or are being featured here to serve as inspiration for future research on the South.
-        </p>
+<div class="row">
+    <div class='section col s10 offset-s1'>
+        <h2 class='header'>
+            About the Featured Collections
+        </h2>
+        <div class="intro-text flow-text light">
+            <p>
+                The Louis Round Wilson Library houses the special collections at the University of North Carolina at Chapel Hill. It houses the University Archives and Records Management Services and five collections: the North Carolina Collection, the Rare Book Collection,
+                the Southern Folklife Collection, and the Southern Historical Collection. These collections are available for research and classroom use. The Libraries has digitized many collections; a list of fully digitized collections can be found
+                here alongside some notable digital exhibits.
+            </p>
+            <p>
+                The collections included here are either completely or partially digitized, and have been either used for digital scholarship projects or are being featured here to serve as inspiration for future research on the South.
+            </p>
+        </div>
     </div>
-</div>
 
 
-<div class='section row'>
+    <div class='section'>
 
-    <!-- Gallery Filter !-->
-    <div class="col offset-s9 s3">
-        <label>Filter {{ page.title }} by Document Type</label>
-        <select class="browser-default" id="scholar-filter">
+        <!-- Gallery Filter !-->
+        <div class="col offset-s9 s2">
+            <label>Filter {{ page.title }}</label>
+            <select class="browser-default grey lighten-3 grey-text z-depth-1" id="scholar-filter">
                 <option class="option" value="all">All Collections</option>
             {% assign doc_types = site.spcollections | map: 'document_types' | uniq | sort %} {% for type in doc_types %}
                 <option class="option" value="{{ type }}"> {{ type }} </option>
             {% endfor %}
         </select>
-    </div>
+        </div>
 
-    <!-- Gallery Cards !-->
-    <div class="col s12" style="margin-bottom: 3em;"></div>
-    {% for col in site.spcollections %}
-    <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ col.document_types }}">
-        <div class="card medium blue darken-3 hoverable">
-            <div class="card-image">
-                <img src="{{ col.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
+        <!-- Gallery Cards !-->
+        <div class="col s10 offset-s1" style="margin-top: 2em;">
+            {% for col in site.spcollections %}
+            <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ col.document_types }}">
+                <div class="card medium blue darken-3 hoverable">
+                    <div class="card-image">
+                        <img src="{{ col.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
+                    </div>
+                    <div class="card-content white-text">
+                        <p class="orange-text accent-2"> {{ col.years_covered }}</p>
+                        <p class="card-title"> {{ col.title }} </p>
+                    </div>
+                    <div class='card-action'>
+                        <a href="{{ col.url | relative_url }}"> Learn More</a>
+                    </div>
+                </div>
             </div>
-            <div class="card-content white-text">
-                <p class="orange-text accent-2"> {{ col.years_covered }}</p>
-                <p class="card-title"> {{ col.title }} </p>
-            </div>
-            <div class='card-action'>
-                <a href="{{ col.url | relative_url }}"> Learn More</a>
-            </div>
+            {% endfor %}
         </div>
     </div>
-    {% endfor %}
 </div>

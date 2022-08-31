@@ -1,61 +1,62 @@
-<div class='section'>
-    <h2 class='header'>
-        About the Featured Projects
-    </h2>
-    <div class="intro-text" class='flow-text light'>
-        <p>
-            Welcome to our Featured Projects page! This collection of projects represents work being done in a variety of humanities and social sciences departments at Carolina. The projects featured here represent how digital methods can be used to advance the study
-            and teaching of the American South. These methods range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
-        </p>
-        <p>
-            The projects featured here have been created in the last 5 years or so, with most being from the past year or two. They demonstrate that Carolina is rich with digital pedagogy initiatives that foster collaboration among faculty, staff, and students of
-            all standing. Some projects are focused on the classroom, while others originate from the scholars’ ventures into special collections, digitized newspapers, and beyond.
-        </p>
-    </div>
-</div>
-<div class="divider"></div>
 <div class='row'>
+    <div class='col s10 offset-s1  section'>
+        <h2 class='header'>
+            About the Featured Projects
+        </h2>
+        <div class="intro-text" class='flow-text light'>
+            <p>
+                Welcome to our Featured Projects page! This collection of projects represents work being done in a variety of humanities and social sciences departments at Carolina. The projects featured here represent how digital methods can be used to advance the study
+                and teaching of the American South. These methods range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
+            </p>
+            <p>
+                The projects featured here have been created in the last 5 years or so, with most being from the past year or two. They demonstrate that Carolina is rich with digital pedagogy initiatives that foster collaboration among faculty, staff, and students of
+                all standing. Some projects are focused on the classroom, while others originate from the scholars’ ventures into special collections, digitized newspapers, and beyond.
+            </p>
+        </div>
+    </div>
+    <div class="divider"></div>
 
     <!-- Gallery Filter !-->
-    <div class="col offset-s9 s3">
+    <div class="col offset-s9 s2">
         <label>Filter {{ page.title }}</label>
-        <select class="browser-default" id="project-filter">
-                <option class="option" value="all">All Projects</option>
-                <optgroup label="By Status:"></optgroup>
+        <select class="browser-default grey lighten-3 grey-text z-depth-1" id="project-filter">
+                <option class="option " value="all ">All Projects</option>
+                <optgroup label="By Status: "></optgroup>
                  {% assign currency = site.projects | map: 'currency' | uniq %} {% for c in currency %}
-                <option class="option" value="{{ c }}"> {{ c }} </option>
+                <option class="option " value="{{ c }} "> {{ c }} </option>
                 {% endfor %}
-                <optgroup label="By Method:"></optgroup>
+                <optgroup label="By Method: "></optgroup>
                 {%- assign methods = site.projects | map: 'methods' | uniq -%}
                 {%- for method in methods -%}
-                <option class="option" value="{{ method }}"> {{ method }} </option>
+                <option class="option " value="{{ method }} "> {{ method }} </option>
                 {%- endfor -%}
-                <optgroup label="By Tag:"></optgroup>
+                <optgroup label="By Tag: "></optgroup>
                 {%- assign tags = site.projects | map: 'tags' | uniq -%}
                 {%- for tag in tags -%}
-                <option class="option" value="{{ tag }}"> {{ tag }}</option>
+                <option class="option " value="{{ tag }} "> {{ tag }}</option>
                 {%- endfor -%}
         </select>
     </div>
 
     <!-- Gallery Cards !-->
-    <div class="col s12" style="margin-bottom: 3em;"></div>
-    {% for project in site.projects %}
-    <div class="col s12 m6 l4 gallery-card scale-transition" status="{{- project.currency -}}" methods="{{- project.methods | join: ' ' -}}" tags="{{- project.tags | join: ' ' -}}">
-        <div class="card medium blue darken-3">
-            <div class="card-image">
-                <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
-            </div>
-            <div class="card-content white-text">
-                <p class="green-text-custom"> {{- project.type | join: ' | ' -}}</p>
-                <p class="card-title"> {{ project.title }}</p>
-                {% if project.subtitle and project.subtitle != 'nan' %}
-                <p> {{ project.subtitle }} </p> {% endif %}
-            </div>
-            <div class='card-action'>
-                <a href="{{ project.url | relative_url }}"> Learn More</a>
+    <div class="col s10 offset-s1 " style="margin-top: 2em; ">
+        {% for project in site.projects %}
+        <div class="col s12 m6 l4 gallery-card scale-transition " status="{{- project.currency -}} " methods="{{- project.methods | join: ' ' -}} " tags="{{- project.tags | join: ' ' -}} ">
+            <div class="card medium blue darken-3 ">
+                <div class="card-image ">
+                    <img src="{{ project.img | relative_url }} " alt="{{ project.img_alt_text | relative_url }} ">
+                    <p class="project-card-type z-depth-1"> {{- project.type | join: ' | ' -}}</p>
+                </div>
+                <div class="card-content white-text ">
+                    <p class="card-title "> {{ project.title }}</p>
+                    {% if project.subtitle and project.subtitle != 'nan' %}
+                    <p> {{ project.subtitle }} </p> {% endif %}
+                </div>
+                <div class='card-action'>
+                    <a href="{{ project.url | relative_url }} "> Learn More</a>
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>

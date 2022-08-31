@@ -1,5 +1,5 @@
 ---
-layout: scholar
+layout: project
 title: Descendants Project
 subtitle: nan
 scholars_involved: 

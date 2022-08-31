@@ -1,25 +1,26 @@
-<div class='section'>
-    <h3 class='header'>
-        ABOUT THE FEATURED SCHOLARS
-    </H3>
-    <p class='flow-text light'>
-        This page is a directory for current UNC scholars researching the American South utilizing various digital methodologies. Scholars come from a myriad of departments across campus and have different approaches and questions, but ultimately they are all
-        interested in advancing our understanding of the South through digital methods.
-    </p>
+<div class='row'>
+    <div class='col s10 offset-s1 section'>
+        <h3 class='header'>
+            ABOUT THE FEATURED SCHOLARS
+        </H3>
+        <p class='flow-text light'>
+            This page is a directory for current UNC scholars researching the American South utilizing various digital methodologies. Scholars come from a myriad of departments across campus and have different approaches and questions, but ultimately they are all
+            interested in advancing our understanding of the South through digital methods.
+        </p>
 
 
-    <p class='flow-text light'>
-        We will highlight a scholar every couple of days as a way to introduce them individually. Keep an eye out for our first post!
-    </p>
-</div>
-<div class="divider"></div>
-<div class='section row'>
+        <p class='flow-text light'>
+            We will highlight a scholar every couple of days as a way to introduce them individually. Keep an eye out for our first post!
+        </p>
+    </div>
+
+    <div class="divider"></div>
 
 
     <!-- Gallery Filter !-->
-    <div class="col offset-s9 s3">
+    <div class="col offset-s9 s2">
         <label>Filter {{ page.title }}</label>
-        <select class="browser-default" id="scholar-filter">
+        <select class="browser-default grey lighten-3 grey-text z-depth-1" id="scholar-filter">
                 <option class="option" value="all">All Departments</option>
             {% assign departments = site.scholars | map: 'department' | join: ',' | split: ',' | uniq %} {% for dep in departments %}
                 <option class="option" value="{{ dep }}"> {{ dep }} </option>
@@ -29,18 +30,19 @@
 
 
     <!-- Gallery Cards !-->
-    <div class="col s12" style="margin-bottom: 3em;"></div>
-    {% for scholar in site.scholars %}
-    <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ scholar.department }}">
-        <div class="card small darken-3">
-            <div class="card-content">
-                <p class="card-title orange-text darken-2" style="font-size: 2em; line-height:40px;"> {{ scholar.name }}</p>
-                <p class="show-on-medium-and-up"> {{ scholar.department }}</p>
-            </div>
-            <div class='card-action'>
-                <a href="{{ scholar.url | relative_url }}" class="btn blue darken-2">Learn More <i class="material-icons">launch</i></a>
+    <div class="col s10 offset-s1" style="margin-top: 2em;">
+        {% for scholar in site.scholars %}
+        <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ scholar.department }}">
+            <div class="card small darken-3">
+                <div class="card-content">
+                    <p class="card-title orange-text darken-2" style="font-size: 2em; line-height:40px;"> {{ scholar.name }}</p>
+                    <p class="show-on-medium-and-up"> {{ scholar.department }}</p>
+                </div>
+                <div class='card-action'>
+                    <a href="{{ scholar.url | relative_url }}">Learn More <i class="material-icons">launch</i></a>
+                </div>
             </div>
         </div>
+        {% endfor %}
     </div>
-    {% endfor %}
 </div>

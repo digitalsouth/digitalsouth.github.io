@@ -8,6 +8,7 @@ scholars_involved:
 currency: Ongoing
 img: assets/img/projects/red_record.jpg
 img_alt_text: "Grainy historical image of a handful of men from the early twentieth century"
+website: https://lynching.web.unc.edu/
 link_title: a_red_record
 methods: 
     - Activism and Advocacy
