@@ -1,16 +1,9 @@
 ---
 layout: scholar
-ID: 1392
-Title: glenn_hinson
 name: Glenn Hinson
 title: Associate Professor
 department: Department of American Studies &amp; Anthropology
 unc_site: https://americanstudies.unc.edu/glenn-hinson/
-preview-picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2021/11/glenn_hinson-cropped.png
 personal_site: nan
-_wp_old_slug: nan
-image_url: nan
-image_filename: nan
-image_title: nan
 ---
-nan
+His research focuses on African American expressive culture, with focused investigation of musical, poetic and belief systems in these communities. He has collaborated with the Smithsonian Institution and the Folk Arts Section of the North Carolina Arts Council. He is co-director of the “Curriculum, Music, and Community” project, an educational initiative that is re-centering the curricula in 4th-grade public school classrooms around the study of local musical traditions.

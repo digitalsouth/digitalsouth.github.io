@@ -13,4 +13,4 @@ image_url: nan
 image_filename: nan
 image_title: nan
 ---
-Matthew Turi is the Manuscripts Reference Librarian in the Manuscripts Department at the University of North Carolina at Chapel Hill. Prior to coming to UNC, he worked for the North Carolina State Historical Records Advisory Board. His scholarly interest focuses on scholarly use of manuscript and archival materials. He holds an MSLS from SILS
+Matthew Turi is the Manuscripts Reference Librarian at the University Libraries. Prior to coming to UNC, he worked for the North Carolina State Historical Records Advisory Board. His academic interest focuses on scholarly use of manuscript and archival materials. He holds an MSLS from UNC's School of Information and Library Science. 

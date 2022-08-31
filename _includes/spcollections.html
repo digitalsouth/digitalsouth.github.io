@@ -2,20 +2,16 @@
     <h2 class='header'>
         About the Featured Collections
     </h2>
-    <p class='flow-text light'>
-        The Louis Round Wilson Library houses the special collections at University of North Carolina at Chapel Hill. It houses five key collections: the North Carolina Collection, the Rare Book Collection, the Southern Folklife Collection, the Southern Historical
-        Collection, and the University Archives and Records Management Services. The documents within these collections are available for research and for use in the classroom as teaching and learning tools. Additionally, many of these collections have
-        been fully digitized or are undergoing the digitization process. A list of fully digitized collections can be found here alongside some notable digital exhibits hosted by Wilson.
-
-    </p>
-
-
-    <p class='flow-text light'>
-        We have included this Special Collections page because many of the spotlighted digital projects use documents from these collections for their research or pedagogical projects. Whether as teaching tools or as data, the immense trove of documents and potential
-        resources on the American South and the peoples who live(d) within should be highlighted alongside the projects and scholars. Below are featured collections that are either completely or partially digitized. We have also included collections that
-        haven’t been used but may serve as inspiration for future digital research on the South!
-    </p>
-
+    <div class="intro-text flow-text light">
+        <p>
+            The Louis Round Wilson Library houses the special collections at the University of North Carolina at Chapel Hill. It houses the University Archives and Records Management Services and five collections: the North Carolina Collection, the Rare Book Collection,
+            the Southern Folklife Collection, and the Southern Historical Collection. These collections are available for research and classroom use. The Libraries has digitized many collections; a list of fully digitized collections can be found here
+            alongside some notable digital exhibits.
+        </p>
+        <p>
+            The collections included here are either completely or partially digitized, and have been either used for digital scholarship projects or are being featured here to serve as inspiration for future research on the South.
+        </p>
+    </div>
 </div>
 
 
@@ -26,7 +22,7 @@
         <label>Filter {{ page.title }} by Document Type</label>
         <select class="browser-default" id="scholar-filter">
                 <option class="option" value="all">All Collections</option>
-            {% assign doc_types = site.spcollections | map: 'document_types' | join: ',' | split: ',' | uniq %} {% for type in doc_types %}
+            {% assign doc_types = site.spcollections | map: 'document_types' | uniq | sort %} {% for type in doc_types %}
                 <option class="option" value="{{ type }}"> {{ type }} </option>
             {% endfor %}
         </select>

@@ -1,16 +1,9 @@
 ---
 layout: scholar
-ID: 1396
-Title: elizabeth_engelhardt
 name: Elizabeth Engelhardt
 title: Senior Associate Dean for Fine Arts and Humanities in the College of Arts &amp; Sciences
 department: Department of American Studies
 unc_site: https://americanstudies.unc.edu/elizabeth-engelhardt/
-preview-picture: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2021/11/Elizabeth-by-Marcie-Cohen-Ferris-700x467-1.jpeg
 personal_site: nan
-_wp_old_slug: nan
-image_url: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2021/11/Elizabeth-by-Marcie-Cohen-Ferris-700x467-1.jpeg
-image_filename: Elizabeth-by-Marcie-Cohen-Ferris-700x467-1.jpeg
-image_title: Elizabeth Engelhardt
 ---
-nan
+The Senior Associate Dean For Fine Arts and Humanities in the College of Arts & Sciences and co-director of Southern Futures, professor Engelhardt has written on topics ranging from food studies, gender, women's studies, and Appalachian literature. Her recent work has coalesced around the futures of the American South, a commitment to Appalachian studies, and the power and possibility of region, race, gender, and class. 

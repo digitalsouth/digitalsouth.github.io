@@ -2,16 +2,16 @@
     <h2 class='header'>
         About the Featured Projects
     </h2>
-    <p class='flow-text light'>
-        Welcome to our Featured Projects page! This collection span humanities and social science departments through UNC while maintaining a focus in the American South while utilizing digital methods to carry their pedagogical or research goals. These methodologies
-        range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
-
-    </p>
-
-
-    <p class='flow-text light'>
-        Further, we have chosen to focus on projects that have been created in approximately the last 5 years with most being from the year or two. What this has let us discover is that Carolina is rich with digital pedagogy initiatives that allow students of
-        all standing, faculty, and staff to collaborate with one another. These projects aren’t only focused on the classroom, as others originate from the scholars’ venture into special collections, digitized newspapers, and beyond. </p>
+    <div class="intro-text" class='flow-text light'>
+        <p>
+            Welcome to our Featured Projects page! This collection of projects represents work being done in a variety of humanities and social sciences departments at Carolina. The projects featured here represent how digital methods can be used to advance the study
+            and teaching of the American South. These methods range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
+        </p>
+        <p>
+            The projects featured here have been created in the last 5 years or so, with most being from the past year or two. They demonstrate that Carolina is rich with digital pedagogy initiatives that foster collaboration among faculty, staff, and students of
+            all standing. Some projects are focused on the classroom, while others originate from the scholars’ ventures into special collections, digitized newspapers, and beyond.
+        </p>
+    </div>
 </div>
 <div class="divider"></div>
 <div class='row'>
@@ -21,21 +21,33 @@
         <label>Filter {{ page.title }}</label>
         <select class="browser-default" id="project-filter">
                 <option class="option" value="all">All Projects</option>
-            {% assign currency = site.projects | map: 'currency' | join: ',' | split: ',' | uniq %} {% for c in currency %}
+                <optgroup label="By Status:"></optgroup>
+                 {% assign currency = site.projects | map: 'currency' | uniq %} {% for c in currency %}
                 <option class="option" value="{{ c }}"> {{ c }} </option>
-            {% endfor %}
+                {% endfor %}
+                <optgroup label="By Method:"></optgroup>
+                {%- assign methods = site.projects | map: 'methods' | uniq -%}
+                {%- for method in methods -%}
+                <option class="option" value="{{ method }}"> {{ method }} </option>
+                {%- endfor -%}
+                <optgroup label="By Tag:"></optgroup>
+                {%- assign tags = site.projects | map: 'tags' | uniq -%}
+                {%- for tag in tags -%}
+                <option class="option" value="{{ tag }}"> {{ tag }}</option>
+                {%- endfor -%}
         </select>
     </div>
 
     <!-- Gallery Cards !-->
     <div class="col s12" style="margin-bottom: 3em;"></div>
     {% for project in site.projects %}
-    <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ project.currency }}">
-        <div class="card medium blue darken-3 hoverable">
+    <div class="col s12 m6 l4 gallery-card scale-transition" status="{{- project.currency -}}" methods="{{- project.methods | join: ' ' -}}" tags="{{- project.tags | join: ' ' -}}">
+        <div class="card medium blue darken-3">
             <div class="card-image">
                 <img src="{{ project.img | relative_url }}" alt="{{ project.img_alt_text | relative_url }}">
             </div>
             <div class="card-content white-text">
+                <p class="green-text-custom"> {{- project.type | join: ' | ' -}}</p>
                 <p class="card-title"> {{ project.title }}</p>
                 {% if project.subtitle and project.subtitle != 'nan' %}
                 <p> {{ project.subtitle }} </p> {% endif %}
@@ -46,5 +58,4 @@
         </div>
     </div>
     {% endfor %}
-</div>
 </div>

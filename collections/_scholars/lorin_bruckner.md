@@ -13,4 +13,4 @@ image_url: https://tarheels.live/digitalsouth/wp-content/uploads/sites/2464/2022
 image_filename: me_sm.png
 image_title: me_sm
 ---
-I’ve been the Data Visualization Services Librarian in Digital Research Services since 2016. Before working at the University Library, I was employed for 10 years as a web designer and creative director. I obtained my MS in Information Science at the University of Illinois Urbana-Champaign. My other interests include text mining and natural language processing.
+Lorin has been the Data Visualization Services Librarian at the University Libraries since 2016. While assisting students, faculty, and staff in the creation of data visualizations to explore and communicate their research, Lorin Bruckner relies on her knowledge and experience in data analysis as well as her 10-year background in web design and creative direction. Bruckner has long-held interest and experience in text analysis and natural language processing. 
