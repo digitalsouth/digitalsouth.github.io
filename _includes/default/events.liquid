@@ -22,7 +22,7 @@
 
         {% for event in site.events limit:3 %}
         <div class="{{ size }}{% if forloop.first %} {{ offset }}{% endif %}">
-            <div class="card small">
+            <div class="card medium">
                 <div class="card-image">
                     <img src="{{ event.img | relative_url }}" alt="{{ event.img_alt_text | relative_url }}">
                     <span class="event-card-date z-depth-1"> {{ event.date | date: "%b %d, %y" }} </span>
