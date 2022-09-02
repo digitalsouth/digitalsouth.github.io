@@ -32,10 +32,10 @@
     <!-- Gallery Cards !-->
     <div class="col s10 offset-s1" style="margin-top: 2em;">
         {% for scholar in site.scholars %}
-        <div class="col s12 m6 l4 gallery-card scale-transition" value="{{ scholar.department }}">
-            <div class="card small darken-3">
-                <div class="card-content">
-                    <p class="card-title orange-text darken-2" style="font-size: 2em; line-height:40px;"> {{ scholar.name }}</p>
+        <div class="col s12 m6 l4 gallery-card" value="{{ scholar.department }}">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> {{ scholar.name }}</p>
                     <p class="show-on-medium-and-up"> {{ scholar.department }}</p>
                 </div>
                 <div class='card-action'>

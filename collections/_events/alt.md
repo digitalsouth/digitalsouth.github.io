@@ -1,5 +1,6 @@
 ---
-type: Panel
+type: Presentation
+icon: 'assets/img/event_icons/presentation.svg'
 series: Digital South Panel Series
 title: Alternatives to the Research Paper
 date: 2022-11-27 14:00

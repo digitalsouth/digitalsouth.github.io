@@ -1,8 +1,8 @@
 ---
-layout: post
+layout: project
 title: On These Grounds
 subtitle: Slavery and the University
-main_scholar: 
+scholars_involved: 
     - Chaitra Powell
     - Anna Goslen
     - Laura Hart

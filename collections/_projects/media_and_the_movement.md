@@ -2,7 +2,12 @@
 layout: project
 title: Media and the Movement
 subtitle: Journalism, Civil Rights, and Black Power in the American South
-main_scholar: Seth Kotch, Joshua Clark Davis, Charmaine McKissick-Melton, Jerry Gershenhorn, Jacquelyn Dowd Hall
+scholars_involved: 
+    - Seth Kotch
+    - Joshua Clark Davis
+    - Charmaine McKissick-Melton
+    - Jerry Gershenhorn 
+    - Jacquelyn Dowd Hall
 website: https://mediaandthemovement.unc.edu/
 currency: Completed
 class: nan

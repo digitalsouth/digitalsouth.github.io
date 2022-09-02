@@ -3,7 +3,7 @@
         <h2 class='header'>
             About the Featured Projects
         </h2>
-        <div class="intro-text" class='flow-text light'>
+        <div class="intro-text flow-text light">
             <p>
                 Welcome to our Featured Projects page! This collection of projects represents work being done in a variety of humanities and social sciences departments at Carolina. The projects featured here represent how digital methods can be used to advance the study
                 and teaching of the American South. These methods range from GIS mapping to podcasting to text analysis, resulting in an intellectually rich array of projects.
@@ -42,18 +42,18 @@
     <div class="col s10 offset-s1 " style="margin-top: 2em; ">
         {% for project in site.projects %}
         <div class="col s12 m6 l4 gallery-card scale-transition " status="{{- project.currency -}} " methods="{{- project.methods | join: ' ' -}} " tags="{{- project.tags | join: ' ' -}} ">
-            <div class="card medium blue darken-3 ">
-                <div class="card-image ">
+            <div class="card medium" style="background: #467aaa;">
+                <div class="card-image" style="max-height:55%;">
                     <img src="{{ project.img | relative_url }} " alt="{{ project.img_alt_text | relative_url }} ">
                     <p class="project-card-type z-depth-1"> {{- project.type | join: ' | ' -}}</p>
                 </div>
                 <div class="card-content white-text ">
-                    <p class="card-title "> {{ project.title }}</p>
+                    <p class="card-title" style="margin-top:0.4em; font-weight:500;"> {{ project.title }}</p>
                     {% if project.subtitle and project.subtitle != 'nan' %}
                     <p> {{ project.subtitle }} </p> {% endif %}
                 </div>
                 <div class='card-action'>
-                    <a href="{{ project.url | relative_url }} "> Learn More</a>
+                    <a href="{{ project.url | relative_url }} ">Learn More <i class="material-icons" style="font-size:0.8em; position: relative; top:0.05em;">launch</i></a>
                 </div>
             </div>
         </div>

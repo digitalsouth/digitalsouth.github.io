@@ -1,0 +1,331 @@
+I"ÒB<div class="row">
+    <div class="col s10 offset-s1 section">
+        <h3 class="header">
+            ABOUT THE FEATURED SCHOLARS
+        </h3>
+        <p class="flow-text light">
+            This page is a directory for current UNC scholars researching the American South utilizing various digital methodologies. Scholars come from a myriad of departments across campus and have different approaches and questions, but ultimately they are all
+            interested in advancing our understanding of the South through digital methods.
+        </p>
+
+
+        <p class="flow-text light">
+            We will highlight a scholar every couple of days as a way to introduce them individually. Keep an eye out for our first post!
+        </p>
+    </div>
+
+    <div class="divider"></div>
+
+
+    <!-- Gallery Filter !-->
+    <div class="col offset-s9 s2">
+        <label>Filter Scholars</label>
+        <select class="browser-default grey lighten-3 grey-text z-depth-1" id="scholar-filter">
+                <option class="option" value="all">All Departments</option>
+             
+                <option class="option" value="Wilson Library"> Wilson Library </option>
+            
+                <option class="option" value="Davis Library"> Davis Library </option>
+            
+                <option class="option" value="Department of Anthropology"> Department of Anthropology </option>
+            
+                <option class="option" value="Department of English and Comparative Literature"> Department of English and Comparative Literature </option>
+            
+                <option class="option" value="Department of Geography"> Department of Geography </option>
+            
+                <option class="option" value="Department of American Studies"> Department of American Studies </option>
+            
+                <option class="option" value="Department of American Studies &amp; Anthropology"> Department of American Studies &amp; Anthropology </option>
+            
+                <option class="option" value="Department of History"> Department of History </option>
+            
+                <option class="option" value="Hussman School of Journalism and Media"> Hussman School of Journalism and Media </option>
+            
+                <option class="option" value="Department of Women's &amp; Gender Studies"> Department of Women's &amp; Gender Studies </option>
+            
+        </select>
+    </div>
+
+
+    <!-- Gallery Cards !-->
+    <div class="col s10 offset-s1" style="margin-top: 2em;">
+        
+        <div class="col s12 m6 l4 gallery-card" value="Wilson Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Aaron Smithers</p>
+                    <p class="show-on-medium-and-up"> Wilson Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/aaron-smithers">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Davis Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Amanda Henley</p>
+                    <p class="show-on-medium-and-up"> Davis Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/amanda-henley">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Anthropology">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Angela Stuesse</p>
+                    <p class="show-on-medium-and-up"> Department of Anthropology</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/angela-stuesse">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Anthropology">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Anna Agbe-Davies</p>
+                    <p class="show-on-medium-and-up"> Department of Anthropology</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/anna-agbe-davies">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Wilson Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Chaitra Powell</p>
+                    <p class="show-on-medium-and-up"> Wilson Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/chaitra-powell">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of English and Comparative Literature">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Courtney Rivard</p>
+                    <p class="show-on-medium-and-up"> Department of English and Comparative Literature</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/courtney-rivard">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of English and Comparative Literature">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Dan Anderson</p>
+                    <p class="show-on-medium-and-up"> Department of English and Comparative Literature</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/dan-anderson">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of English and Comparative Literature">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Danielle Christmas</p>
+                    <p class="show-on-medium-and-up"> Department of English and Comparative Literature</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/danielle-christmas">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Geography">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Danielle Purifoy</p>
+                    <p class="show-on-medium-and-up"> Department of Geography</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/danielle-purifoy">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Geography">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Diego Riveros-Iregui</p>
+                    <p class="show-on-medium-and-up"> Department of Geography</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/diego-riveros-iregui">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of American Studies">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Elizabeth Engelhardt</p>
+                    <p class="show-on-medium-and-up"> Department of American Studies</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/elizabeth-engelhardt">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of American Studies &amp; Anthropology">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Glenn Hinson</p>
+                    <p class="show-on-medium-and-up"> Department of American Studies &amp; Anthropology</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/glenn-hinson">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of History">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> James L. Leloudis</p>
+                    <p class="show-on-medium-and-up"> Department of History</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/james-l-leloudis">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Hussman School of Journalism and Media">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Lisa Villamil</p>
+                    <p class="show-on-medium-and-up"> Hussman School of Journalism and Media</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/lisa-villamil">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Davis Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Lorin Bruckner</p>
+                    <p class="show-on-medium-and-up"> Davis Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/lorin-bruckner">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Davis Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Matthew Jansen</p>
+                    <p class="show-on-medium-and-up"> Davis Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/matthew-jansen">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Wilson Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Matthew Turi</p>
+                    <p class="show-on-medium-and-up"> Wilson Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/matthew-turi">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Geography">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Nina Martin</p>
+                    <p class="show-on-medium-and-up"> Department of Geography</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/nina-martin">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Geography">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Paul Delamater</p>
+                    <p class="show-on-medium-and-up"> Department of Geography</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/paul-delamater">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Wilson Library">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Sarah Carrier</p>
+                    <p class="show-on-medium-and-up"> Wilson Library</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/sarah-carrier">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of American Studies">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Seth Kotch</p>
+                    <p class="show-on-medium-and-up"> Department of American Studies</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/seth-kotch">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of Women's &amp; Gender Studies">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> Susan Harbage Page</p>
+                    <p class="show-on-medium-and-up"> Department of Women's &amp; Gender Studies</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/susan-harbage-page">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col s12 m6 l4 gallery-card" value="Department of History">
+            <div class="card small" style="background: #467aaa;">
+                <div class="card-content white-text">
+                    <p class="card-title" style="font-size: 2em; line-height:40px;"> W. Fitzhugh Brundage</p>
+                    <p class="show-on-medium-and-up"> Department of History</p>
+                </div>
+                <div class="card-action">
+                    <a href="/scholars/w-fitzhugh-brundage">Learn More <i class="material-icons">launch</i></a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+:ET

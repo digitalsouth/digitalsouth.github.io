@@ -1,5 +1,6 @@
 ---
-type: Panel
+type: Presentation
+icon: 'assets/img/event_icons/presentation.svg'
 series: Digital South Panel Series
 title: On these Grounds
 subtitle: Slavery and the University Panel

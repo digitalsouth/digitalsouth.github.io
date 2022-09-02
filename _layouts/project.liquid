@@ -4,28 +4,40 @@ layout: default
 {% assign proj_scholar = site.scholars | where: "name", page.main_scholar | first %}
 
 <div class="row" aria-text="project information">
-<div class="col s10 offset-s1">
-<h2 class="col s12 m12 header" style="width: fit-content; margin-bottom: 0;"> {{ page.title }} </h2>
-{% assign scholar_list = site.scholars | map: "name"  %}
+    <div class="col s9 offset-s1">
+        <div style="text-align: center; margin: 0 auto 2em auto; width: max-content;">
+        <h2 class="header "margin: 2em auto 0 auto; font-weight: 400;"> <b>{{ page.title }}</b> 
+        {%- if page.subtitle and page.subtitle != 'nan' -%}: {{ page.subtitle }}{% endif %}</h2>
+        </div>
+        {% assign scholar_list = site.scholars | map: "name"  %}
 
-<h4 class="col s12">
-<span style="margin-right: 0.1em;">Scholars Involved: </span>
-{%- for scholar in page.scholars_involved -%}
-    {%- if scholar_list contains scholar -%}
-        {% assign scholar_url = site.scholars | where: "name", scholar | map: "url" %}
-        <a href="{{- scholar_url -}}">{{ scholar }}</a>
-    {%- else -%}
-         {{- scholar -}}
-    {%- endif -%}{% if forloop.last == false %}, {% endif %} 
-{%- endfor -%} 
-</h4>
-<div class="col s12 divider"></div>
-<div class="section col s12">
-<h4 class="header">DESCRIPTION:</h4>
-<blockquote class='flow-text'> {{- page.content -}} </blockquote>
-{% if page.website != nan and page.website %}
-<h5 class="col s12"><a href="{{ page.website }}"> See Project's Website <i class="material-icons" style="font-size: 1.1em; top:0.17em; position: relative;">launch</i></h5>
-{% endif %}
-</div>
-</div>
+       
+            <div class="hide-on-med-and-down object-fig" style="margin-top: 1em;">
+                <img src="{{ page.img | relative_url }}" alt="{{ page.img_alt_text }}" class="z-depth-2" />
+                <p> {{ page.img_caption }} </p>
+            </div>
+            <h4 class="header" style="margin-right: 0.1em; margin-buttom: 0.3em;"><b>Scholars Involved:</b></h4>
+            {%- for scholar in page.scholars_involved -%}
+                {%- if scholar_list contains scholar -%}
+                    {% assign scholar_url = site.scholars | where: "name", scholar | map: "url" %}
+                    <p class="flow-text thin" style=" margin-bottom: 0; margin-top:0; width: fit-content;"><a href="{{- scholar_url -}}">{{ scholar }}</a></p>
+                {%- else -%}
+                    <p class="flow-text thin" style=" margin-bottom: 0; margin-top:0; width: fit-content;">{{- scholar -}}</p>
+                {%- endif -%}
+            {%- endfor -%} 
+        <div class="section ">
+            <h4 class="header" style="width: fit-content"><b>Description:</b></h4>
+            <div class='intro-text flow-text light' > 
+                <p> {{- page.content -}} </p>
+            </div>
+            {% if page.website != nan and page.website %}
+            <h5 class=""><a href="{{ page.website }}"> See Project's Website <i class="material-icons" style="font-size: 0.6em; top:0.05em; position: relative;">launch</i></a></h5>
+            {% endif %}
+        </div>
+        <div class="divider"></div>
+        <div> 
+        <p><b>Methods: </b>{{ page.methods | join: ', ' }}</p>
+        <p><b>Tags: </b>{{ page.tags | join: ', ' }}</p>
+        
+    </div>
 </div>

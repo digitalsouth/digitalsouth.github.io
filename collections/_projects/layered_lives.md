@@ -8,6 +8,7 @@ scholars_involved:
     - Lauren Tilton
 currency: Ongoing
 link-title: layered_lives
+website: https://layeredlives.org/
 img: assets/img/spcollections/federal_writers_project.jpg 
 img_alt_text: "Scan of a document from the Federal Writers Project collection"
 methods:
