@@ -10,14 +10,14 @@ img: assets/img/projects/durham1940.jpg
 img_alt_text: "Map of Durham, North Carolina from 1940"
 link_title: durhams_geographic_histories
 methods:
-    - curriculum and pedagogy
-    - ethnographic analysis
-    - spatial and spatio-temporal analysis
+    - Curriculum and Pedagogy
+    - Ethnographic Analysis
+    - Spatial and Spatio-temporal Analysis
 tags:
-    - durham history
-    - north carolina history
-    - podcasts
-    - social inequalities
+    - Durham History
+    - North Carolina History
+    - Podcasts
+    - Social Inequalities
     - StoryMaps
 type: Digital Pedagogy
 ---

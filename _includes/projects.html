@@ -41,7 +41,7 @@
     <!-- Gallery Cards !-->
     <div class="col s10 offset-s1 " style="margin-top: 2em; ">
         {% for project in site.projects %}
-        <div class="col s12 m6 l4 gallery-card scale-transition " status="{{- project.currency -}} " methods="{{- project.methods | join: ' ' -}} " tags="{{- project.tags | join: ' ' -}} ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="{{ project.currency }} {{ project.methods | join: ' '}} {{project.tags | join: ' ' }} ">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="{{ project.img | relative_url }} " alt="{{ project.img_alt_text | relative_url }} ">

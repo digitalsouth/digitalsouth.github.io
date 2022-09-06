@@ -11,7 +11,7 @@ img: assets/img/projects/pm_photo.png
 img_alt_text: "Photograph of Pauli Murray writing. Courtesy of the Schlesinger Library at Harvard University"
 link_title: nc_black_feminisms
 methods:
-    - Spatial and Spatio-Temporal Analysis
+    - Spatial and Spatio-temporal Analysis
     - Digital Publishing
 tags:
     - African American History

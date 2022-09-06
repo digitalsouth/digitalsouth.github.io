@@ -6,9 +6,9 @@ let updateGallery = (filter, cards) => {
 
     if (filter != "all") {
         cards.forEach(s => {
-            let card_value = [s.getAttribute("status"), s.getAttribute("methods"), s.getAttribute("tags")].join(' ');
+            let card_value = s.getAttribute("value").toLowerCase();
             console.log(card_value)
-            if (card_value.includes(filter) == false) {
+            if (card_value.includes(filter.toLowerCase()) == false) {
                 s.classList.add("scale-out");
                 setTimeout(() => {
                     s.classList.add("hide")
@@ -33,6 +33,7 @@ let updateGallery = (filter, cards) => {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
+
     let elem = document.querySelector('.browser-default');
 
     if (elem != null) {
@@ -49,3 +50,8 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
 });
+
+ document.addEventListener('DOMContentLoaded', function() {
+    var sn_elems = document.querySelectorAll('.sidenav');
+    var instances = M.Sidenav.init(sn_elems, "");
+  });

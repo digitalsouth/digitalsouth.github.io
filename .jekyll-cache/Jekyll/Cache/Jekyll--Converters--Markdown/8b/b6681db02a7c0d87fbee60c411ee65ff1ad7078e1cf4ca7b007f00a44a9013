@@ -1,148 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=0.5, maximum-scale=5">
-    <title> The Digital South At University of North Carolina – Chapel Hill </title>
-    
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
-    <!-- CSS -->
-    <link rel="stylesheet" href="/assets/css/main.css">
-
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-    <!--Favicon-->
-    <link rel="shortcut icon" href="" type="image/x-icon">
-
-    <!-- Simple Jekyll Search 1.10.0 -->
-    
-
-    
-</head>
-
-
-<body>
-    <header class="site-header">
-
-  <nav aria-label="Main navigation menu">
-    <div class="nav-wrapper">
-
-
-  <a href="/" class="nav-title"> 
-      DS@UNC
-      </a>
-      <a href="#" data-target="side-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        
-
-        
-            
-            <li>
-                <a title="ABOUT" href="/about/">
-                <span>ABOUT</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="SCHOLARS" href="/scholars/">
-                <span>SCHOLARS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="PROJECTS" href="/projects/">
-                <span>PROJECTS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            <li>
-                <a title="COLLECTIONS" href="/collections/">
-                <span>COLLECTIONS</span>
-                </a>
-            </li>
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-            
-            
-        
-      </ul>
-    </div>
-  </nav>
-
-  <ul class="sidenav" id="side-nav">
-    <li><a title="HOME" href="/">HOME</a></li>
-    
-      
-        <li><a title="ABOUT" href="/about/">ABOUT </a></li>
-      
-    
-      
-        <li><a title="SCHOLARS" href="/scholars/">SCHOLARS </a></li>
-      
-    
-      
-        <li><a title="PROJECTS" href="/projects/">PROJECTS </a></li>
-      
-    
-      
-        <li><a title="COLLECTIONS" href="/collections/">COLLECTIONS </a></li>
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      
-    
-
-  </ul>
-
-</header>
- <article class='feature-container' aria-label="Banner image" tabindex="0">
-
-    <img src="/assets/img/feature/ds_bkd_1.jpg" alt="Banner image of a network of people icons with text on the outter edges.">
-
-    <div class="feature-text-container" aria-label="banner text">
-        <h1 aria-label="The Digital South @ UNC" class="feature-text"> 
-            THE DIGITAL SOUTH @ UNC 
-        </h1>
-    </div>
-
-</article> 
-
-
-    <main class="">
-        <div class="row">
+I"`\<div class="row">
     <div class="col s10 offset-s1  section">
         <h2 class="header">
             About the Featured Projects
@@ -171,13 +27,13 @@
                 
                 <option class="option " value="Completed "> Completed </option>
                 
-                <optgroup label="By Method: "></optgroup><option class="option " value="Activism and Advocacy "> Activism and Advocacy </option><option class="option " value="Data Modeling "> Data Modeling </option><option class="option " value="Spatial and Spatio-temporal Analysis "> Spatial and Spatio-temporal Analysis </option><option class="option " value="Archiving "> Archiving </option><option class="option " value="Cultural Analytics "> Cultural Analytics </option><option class="option " value="Manuscripts "> Manuscripts </option><option class="option " value="Curriculum and Pedagogy "> Curriculum and Pedagogy </option><option class="option " value="Ethnographic Analysis "> Ethnographic Analysis </option><option class="option " value="Data Analysis "> Data Analysis </option><option class="option " value="OCR and Handwriting Analysis "> OCR and Handwriting Analysis </option><option class="option " value="Digital Publishing "> Digital Publishing </option><option class="option " value="Electronic Literature "> Electronic Literature </option><option class="option " value="Digital Archives "> Digital Archives </option><option class="option " value="Text Mining "> Text Mining </option><option class="option " value="Databases "> Databases </option><optgroup label="By Tag: "></optgroup><option class="option " value="African American History "> African American History</option><option class="option " value="Lynchings "> Lynchings</option><option class="option " value="North Carolina History "> North Carolina History</option><option class="option " value="Collections as Data "> Collections as Data</option><option class="option " value="Plantation History "> Plantation History</option><option class="option " value="Special Collections "> Special Collections</option><option class="option " value="Ledgers "> Ledgers</option><option class="option " value="Oral Histories "> Oral Histories</option><option class="option " value="Social Justice "> Social Justice</option><option class="option " value="Durham History "> Durham History</option><option class="option " value="Podcasts "> Podcasts</option><option class="option " value="Social Inequalities "> Social Inequalities</option><option class="option " value="StoryMaps "> StoryMaps</option><option class="option " value="Confederate Monuments "> Confederate Monuments</option><option class="option " value="Network Analysis "> Network Analysis</option><option class="option " value="Silent Sam "> Silent Sam</option><option class="option " value="Twitter Analysis "> Twitter Analysis</option><option class="option " value="UNC History "> UNC History</option><option class="option " value="History of Slavery "> History of Slavery</option><option class="option " value="Collections As Data "> Collections As Data</option><option class="option " value="Federal Writers' Project "> Federal Writers' Project</option><option class="option " value="Southern History (U.S.) "> Southern History (U.S.)</option><option class="option " value="African American Histories "> African American Histories</option><option class="option " value="Geography "> Geography</option><option class="option " value="Digital Publishing "> Digital Publishing</option><option class="option " value="Feminist History "> Feminist History</option><option class="option " value="Jim Crow "> Jim Crow</option><option class="option " value="Higher Education "> Higher Education</option><option class="option " value="Metadata "> Metadata</option><option class="option " value="Archeology "> Archeology</option><option class="option " value="Ontologies "> Ontologies</option><option class="option " value="Local Advocacy "> Local Advocacy</option><option class="option " value="Latinx Population "> Latinx Population</option></select>
+                <optgroup label="By Method: "></optgroup><option class="option " value="Activism and Advocacy "> Activism and Advocacy </option><option class="option " value="Data Modeling "> Data Modeling </option><option class="option " value="Spatial and Spatio-temporal Analysis "> Spatial and Spatio-temporal Analysis </option><option class="option " value="Archiving "> Archiving </option><option class="option " value="Cultural Analytics "> Cultural Analytics </option><option class="option " value="Manuscripts "> Manuscripts </option><option class="option " value="Curriculum and Pedagogy "> Curriculum and Pedagogy </option><option class="option " value="Ethnographic Analysis "> Ethnographic Analysis </option><option class="option " value="Data Analysis "> Data Analysis </option><option class="option " value="OCR and Handwriting Analysis "> OCR and Handwriting Analysis </option><option class="option " value="Digital Publishing "> Digital Publishing </option><option class="option " value="Electronic Literature "> Electronic Literature </option><option class="option " value="Digital Archives "> Digital Archives </option><option class="option " value="Spatial and Spatio-Temporal Analysis "> Spatial and Spatio-Temporal Analysis </option><option class="option " value="Text Mining "> Text Mining </option><option class="option " value="Databases "> Databases </option><optgroup label="By Tag: "></optgroup><option class="option " value="African American History "> African American History</option><option class="option " value="Lynchings "> Lynchings</option><option class="option " value="North Carolina History "> North Carolina History</option><option class="option " value="Collections as Data "> Collections as Data</option><option class="option " value="Plantation History "> Plantation History</option><option class="option " value="Special Collections "> Special Collections</option><option class="option " value="Ledgers "> Ledgers</option><option class="option " value="Oral Histories "> Oral Histories</option><option class="option " value="Social Justice "> Social Justice</option><option class="option " value="Durham History "> Durham History</option><option class="option " value="Podcasts "> Podcasts</option><option class="option " value="Social Inequalities "> Social Inequalities</option><option class="option " value="StoryMaps "> StoryMaps</option><option class="option " value="Confederate Monuments "> Confederate Monuments</option><option class="option " value="Network Analysis "> Network Analysis</option><option class="option " value="Silent Sam "> Silent Sam</option><option class="option " value="Twitter Analysis "> Twitter Analysis</option><option class="option " value="UNC History "> UNC History</option><option class="option " value="History of Slavery "> History of Slavery</option><option class="option " value="Collections As Data "> Collections As Data</option><option class="option " value="Federal Writers' Project "> Federal Writers' Project</option><option class="option " value="Southern History (U.S.) "> Southern History (U.S.)</option><option class="option " value="African American Histories "> African American Histories</option><option class="option " value="Geography "> Geography</option><option class="option " value="Digital Publishing "> Digital Publishing</option><option class="option " value="Feminist History "> Feminist History</option><option class="option " value="Jim Crow "> Jim Crow</option><option class="option " value="Higher Education "> Higher Education</option><option class="option " value="Metadata "> Metadata</option><option class="option " value="Archeology "> Archeology</option><option class="option " value="Ontologies "> Ontologies</option><option class="option " value="Local Advocacy "> Local Advocacy</option><option class="option " value="Latinx Population "> Latinx Population</option></select>
     </div>
 
     <!-- Gallery Cards !-->
     <div class="col s10 offset-s1 " style="margin-top: 2em; ">
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Activism and Advocacy Data Modeling Spatial and Spatio-temporal Analysis African American History Lynchings North Carolina History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingActivism and Advocacy Data Modeling Spatial and Spatio-temporal AnalysisAfrican American History Lynchings North Carolina History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/red_record.jpg " alt="/Grainy%20historical%20image%20of%20a%20handful%20of%20men%20from%20the%20early%20twentieth%20century " />
@@ -193,7 +49,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Archiving Cultural Analytics Manuscripts Collections as Data North Carolina History Plantation History Special Collections Ledgers ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingArchiving Cultural Analytics ManuscriptsCollections as Data North Carolina History Plantation History Special Collections Ledgers">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/spcollections/cameron_family_papers.jpg " alt="/Scan%20of%20a%20historical%20ledger%20from%20the%20Cameron%20Family%20Papers%20collection " />
@@ -209,7 +65,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Activism and Advocacy Curriculum and Pedagogy Ethnographic Analysis African American History North Carolina History Oral Histories Social Justice ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingActivism and Advocacy Curriculum and Pedagogy Ethnographic AnalysisAfrican American History North Carolina History Oral Histories Social Justice">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/descendants.jpg " alt="/Scan%20of%20a%20historical%20newspaper " />
@@ -225,7 +81,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Completed Curriculum and Pedagogy Ethnographic Analysis Spatial and Spatio-temporal Analysis Durham History North Carolina History Podcasts Social Inequalities StoryMaps ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="CompletedCurriculum and Pedagogy Ethnographic Analysis Spatial and Spatio-temporal AnalysisDurham History North Carolina History Podcasts Social Inequalities StoryMaps">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/durham1940.jpg " alt="/Map%20of%20Durham,%20North%20Carolina%20from%201940 " />
@@ -241,7 +97,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Completed Cultural Analytics Data Analysis Data Modeling Confederate Monuments Network Analysis Silent Sam Twitter Analysis UNC History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="CompletedCultural Analytics Data Analysis Data ModelingConfederate Monuments Network Analysis Silent Sam Twitter Analysis UNC History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/silent_sam.jpg " alt="/Recent%20photograph%20of%20the%20Silent%20Sam%20monument,%20which%20has%20been%20removed%20from%20the%20North%20Carolina%20%E2%80%93%20Chapel%20Hill%20grounds. " />
@@ -257,7 +113,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Activism and Advocacy Curriculum and Pedagogy OCR and Handwriting Analysis Collections as Data History of Slavery UNC History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingActivism and Advocacy Curriculum and Pedagogy OCR and Handwriting AnalysisCollections as Data History of Slavery UNC History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/hips_photo.jpg " alt="/Scan%20of%20a%20historical%20handwritten%20ledger%20from%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill " />
@@ -273,7 +129,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Cultural Analytics Digital Publishing Electronic Literature Collections As Data Federal Writers' Project Oral Histories Southern History (U.S.) ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingCultural Analytics Digital Publishing Electronic LiteratureCollections As Data Federal Writers' Project Oral Histories Southern History (U.S.)">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/spcollections/federal_writers_project.jpg " alt="/Scan%20of%20a%20document%20from%20the%20Federal%20Writers%20Project%20collection " />
@@ -290,7 +146,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Spatial and Spatio-temporal Analysis African American Histories Geography ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingSpatial and Spatio-temporal AnalysisAfrican American Histories Geography">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/bt_durham.jpg " alt="/Black%20and%20white%20arial%20photograph%20of%20some%20buildings%20in%20Durham " />
@@ -306,7 +162,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Completed Activism and Advocacy Electronic Literature Spatial and Spatio-temporal Analysis UNC History African American History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="CompletedActivism and Advocacy Electronic Literature Spatial and Spatio-temporal AnalysisUNC History African American History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/karen_parker.jpg " alt="/A%20photograph%20of%20Karen%20Parker. " />
@@ -322,7 +178,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Completed Digital Archives Digital Publishing Digital Publishing African American History Southern History (U.S.) ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="CompletedDigital Archives Digital PublishingDigital Publishing African American History Southern History (U.S.)">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/spcollections/media_movement.jpg " alt="/Picture%20of%20a%20speaking%20event%20from%20the%20Media%20and%20the%20Movement%20Collection. " />
@@ -339,7 +195,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Spatial and Spatio-temporal Analysis Digital Publishing African American History North Carolina History Feminist History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingSpatial and Spatio-Temporal Analysis Digital PublishingAfrican American History North Carolina History Feminist History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/pm_photo.png " alt="/Photograph%20of%20Pauli%20Murray%20writing.%20Courtesy%20of%20the%20Schlesinger%20Library%20at%20Harvard%20University " />
@@ -355,7 +211,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Digital Archives OCR and Handwriting Analysis Text Mining Databases North Carolina History Jim Crow Collections As Data ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingDigital Archives OCR and Handwriting Analysis Text Mining DatabasesNorth Carolina History Jim Crow Collections As Data">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/otb.jpg " alt="/Photograph%20of%20individuals%20protesting%20segregation,%20with%20a%20sign%20with%20'How%20much%20longer?'%20prominently%20featured. " />
@@ -372,7 +228,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Digital Archives Databases Higher Education Collections as Data Metadata ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingDigital Archives DatabasesHigher Education Collections as Data Metadata">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/feature/otg.jpg " alt="/Historical%20drawing%20of%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapel%20Hill. " />
@@ -389,7 +245,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Archiving Cultural Analytics Databases Archeology Ontologies Metadata ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingArchiving Cultural Analytics DatabasesArcheology Ontologies Metadata">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/plastic_archeology.jpg " alt="/Photograph%20of%20a%20various%20small%20and%20broken%20plastic%20objects. " />
@@ -405,7 +261,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Completed Activism and Advocacy Digital Publishing Electronic Literature Confederate Monuments UNC History Silent Sam North Carolina History ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="CompletedActivism and Advocacy Digital Publishing Electronic LiteratureConfederate Monuments UNC History Silent Sam North Carolina History">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/ss_online.jpg " alt="/Grainy%20photograph%20of%20the%20Silent%20Sam%20monument,%20which%20has%20been%20removed%20from%20the%20University%20of%20North%20Carolina%20%E2%80%93%20Chapell%20Hill%20grounds. " />
@@ -421,7 +277,7 @@
             </div>
         </div>
         
-        <div class="col s12 m6 l4 gallery-card scale-transition " value="Ongoing Digital Publishing Activism and Advocacy Local Advocacy Latinx Population ">
+        <div class="col s12 m6 l4 gallery-card scale-transition " value="OngoingDigital Publishing Activism and AdvocacyLocal Advocacy Latinx Population">
             <div class="card medium" style="background: #467aaa;">
                 <div class="card-image" style="max-height:55%;">
                     <img src="/assets/img/projects/undocucarolina.jpg " alt="/Logo%20of%20Undocucarolina. " />
@@ -439,30 +295,4 @@
         
     </div>
 </div>
-
-    </main>
-    
-    <footer class="page-footer">
-<div class="container">
-  <div class="row">
-    <div class="col s12 white-text">
-    <p>Have questions or notice incorrect information? Email <a href="http://guides.lib.unc.edu/amandahenley">Amanda Henley</a>, Head of Davis Library Digital Research Services</p>
-  </div>
-    <div class="col s12 white-text">
-      The Digital South is a collaboration between the <a href="https://library.unc.edu/"> University Libraries</a> and <a href="https://www.google.com/search?q=southern+futures&rlz=1C5CHFA_enUS886US887&oq=southern+futures&aqs=chrome..69i57.1595j0j7&sourceid=chrome&ie=UTF-8">Southern Futures</a> at the University of North Carolina – Chapel Hill.
-    </div>
-</div>
-<div class='footer-copyright'>
-
-   <p class=""> © 2021 The Digital South @ UNC</p>
-    <a class="grey-text text-lighten-4" href="https://rolandorodriguez.dev">Created and maintained by Rolando Rodriguez</a>
-
-</div>
-</footer>
-
-    <script type="text/javascript" src="../assets/js/materialize.js"></script>
-    <script type="text/javascript" src='../assets/js/events.js' defer="defer"></script>
-</body>
-
-
-</html>
+:ET
